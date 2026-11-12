@@ -1,0 +1,80 @@
+# Replication: Cultural Capital and Network Activation
+
+R replication package for the paper *Cultural Capital and Network Activation*
+(Lizardo), ported from the original Stata do-files archived in
+`stata-original/`.
+
+## Data acquisition
+
+The paper uses the 2002 General Social Survey (GSS). Rather than shipping a
+data file, the replication pulls the 2002 single-year GSS directly from NORC
+using Kieran Healy's [gssr](https://github.com/kjhealy/gssr) package:
+
+```r
+gssr::gss_get_yr(2002)
+# Fetching: https://gss.norc.org/documents/stata/2002_stata.zip
+```
+
+The downloaded extract is cached to `data/gss2002.rds` so later scripts do not
+re-download it. The NORC data files are public, so no credentials are needed.
+
+## Run order
+
+Scripts are numbered and meant to be run in sequence (`source()` from the repo
+root, or run each in order):
+
+| Script | Ports | Produces |
+|--------|-------|----------|
+| `R/00-download-gss.R`  | — | `data/gss2002.rds` |
+| `R/01-data-prep.R`     | `dataproc.do` | `data/analysis-gss2002.rds` |
+| `R/02-analysis-tables.R` | `analysis-SSR-R1.do`, `analysis-SSR-R2.do`, `analysis-SSR-R3.do` (tables) | `output/tables/*.html` |
+| `R/03-figures.R`       | `analysis-SSR-R1.do`, `analysis-SSR-R2.do`, `analysis-SSR-R3.do`, `figure2.do` (figures) | `output/figures/*.pdf` |
+
+## Porting notes
+
+- The Stata user-written `egen rsum2(...), anymiss` (sum of 0/1 items, missing
+  if any item missing) is reproduced with `rowSums()` plus an any-missing flag.
+- The `factor ... , pcf` / `rotate, promax` / `predict hi pop` sequence is
+  ported with `psych::fa()` (principal-axis factoring, promax rotation,
+  regression scores) as `hi` (highbrow) and `pop` (popular) factor scores.
+- `logit ... , robust` → `glm(..., family = binomial)` with HC/robust standard
+  errors via `sandwich::vcovHC()`.
+- `mlogit` → `nnet::multinom`; `nbreg` → `MASS::glm.nb`.
+- `margins` / `marginsplot` → `marginaleffects::predictions()` / `avg_slopes()`,
+  plotted with ggplot2.
+- Tables are produced with `modelsummary`; the multinomial (`mlogit`) models
+  are tabled with a small `broom::tidy()` + `gt` helper because modelsummary
+  does not reliably support `nnet::multinom`.
+- `sandwich::estfun()` has no method for `nnet::multinom`, so multinomial
+  tables report model-based (Hessian) standard errors; the glm/glm.nb models
+  use HC1 robust standard errors.
+
+## Release-vintage caveat
+
+The original do-files were written against a 2002-vintage GSS Stata file.
+The modern NORC release of the 2002 data (fetched by this pipeline) tags some
+DK/NA/IAP values as missing that the older file stored as valid numeric codes.
+After the listwise-deletion step the port's effective model samples differ
+from the original extract by a handful of cases (e.g. 1036 vs 1038 for the
+headline multinomial model), and the multinomial coefficients agree with the
+original `using.dta` estimates to within ~0.02. The original Stata extract is
+preserved at `stata-original/using.dta` for cross-checks.
+
+## Requirements
+
+R >= 4.2. Package versions are pinned with
+[renv](https://rstudio.github.io/renv/); the lockfile `renv.lock` records every
+dependency (including `gssr` 0.9, from Healy's R-Universe) and its version.
+Opening the project with renv installed restores the exact environment:
+
+```r
+renv::restore()
+```
+
+Opening the project in Positron/RStudio should trigger the renv restore
+prompt automatically (an `renv/activate.R` hook is present). To run the
+pipeline from a fresh shell:
+
+```sh
+Rscript --no-save --no-restore -e 'renv::load("."); source("R/00-download-gss.R"); source("R/01-data-prep.R"); source("R/02-analysis-tables.R"); source("R/03-figures.R")'
+```

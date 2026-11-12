@@ -1,0 +1,939 @@
+{\rtf1\adeflang1025\ansi\ansicpg1252\uc1\adeff0\deff0\stshfdbch0\stshfloch37\stshfhich37\stshfbi0\deflang1033\deflangfe1033\themelang1033\themelangfe0\themelangcs0{\fonttbl{\f0\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fbidi \fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fbidi \fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}{\f34\fbidi \froman\fcharset0\fprq2{\*\panose 02040503050406030204}Cambria Math;}{\f36\fbidi \froman\fcharset0\fprq2{\*\panose 02040503050406030204}Cambria;}
+{\f37\fbidi \fswiss\fcharset0\fprq2{\*\panose 020f0502020204030204}Calibri;}{\f40\fbidi \fswiss\fcharset0\fprq2{\*\panose 020b0604030504040204}Tahoma;}{\f245\fbidi \fswiss\fcharset0\fprq2{\*\panose 020e0502030303020204}Candara;}
+{\flomajor\f31500\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\fdbmajor\f31501\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\fhimajor\f31502\fbidi \froman\fcharset0\fprq2{\*\panose 02040503050406030204}Cambria;}{\fbimajor\f31503\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\flominor\f31504\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\fdbminor\f31505\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\fhiminor\f31506\fbidi \fswiss\fcharset0\fprq2{\*\panose 020f0502020204030204}Calibri;}{\fbiminor\f31507\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f263\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}
+{\f264\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\f266\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\f267\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\f268\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}
+{\f269\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\f270\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\f271\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\f273\fbidi \fswiss\fcharset238\fprq2 Arial CE;}
+{\f274\fbidi \fswiss\fcharset204\fprq2 Arial Cyr;}{\f276\fbidi \fswiss\fcharset161\fprq2 Arial Greek;}{\f277\fbidi \fswiss\fcharset162\fprq2 Arial Tur;}{\f278\fbidi \fswiss\fcharset177\fprq2 Arial (Hebrew);}
+{\f279\fbidi \fswiss\fcharset178\fprq2 Arial (Arabic);}{\f280\fbidi \fswiss\fcharset186\fprq2 Arial Baltic;}{\f281\fbidi \fswiss\fcharset163\fprq2 Arial (Vietnamese);}{\f283\fbidi \fmodern\fcharset238\fprq1 Courier New CE;}
+{\f284\fbidi \fmodern\fcharset204\fprq1 Courier New Cyr;}{\f286\fbidi \fmodern\fcharset161\fprq1 Courier New Greek;}{\f287\fbidi \fmodern\fcharset162\fprq1 Courier New Tur;}{\f288\fbidi \fmodern\fcharset177\fprq1 Courier New (Hebrew);}
+{\f289\fbidi \fmodern\fcharset178\fprq1 Courier New (Arabic);}{\f290\fbidi \fmodern\fcharset186\fprq1 Courier New Baltic;}{\f291\fbidi \fmodern\fcharset163\fprq1 Courier New (Vietnamese);}{\f603\fbidi \froman\fcharset238\fprq2 Cambria Math CE;}
+{\f604\fbidi \froman\fcharset204\fprq2 Cambria Math Cyr;}{\f606\fbidi \froman\fcharset161\fprq2 Cambria Math Greek;}{\f607\fbidi \froman\fcharset162\fprq2 Cambria Math Tur;}{\f610\fbidi \froman\fcharset186\fprq2 Cambria Math Baltic;}
+{\f623\fbidi \froman\fcharset238\fprq2 Cambria CE;}{\f624\fbidi \froman\fcharset204\fprq2 Cambria Cyr;}{\f626\fbidi \froman\fcharset161\fprq2 Cambria Greek;}{\f627\fbidi \froman\fcharset162\fprq2 Cambria Tur;}
+{\f630\fbidi \froman\fcharset186\fprq2 Cambria Baltic;}{\f633\fbidi \fswiss\fcharset238\fprq2 Calibri CE;}{\f634\fbidi \fswiss\fcharset204\fprq2 Calibri Cyr;}{\f636\fbidi \fswiss\fcharset161\fprq2 Calibri Greek;}
+{\f637\fbidi \fswiss\fcharset162\fprq2 Calibri Tur;}{\f640\fbidi \fswiss\fcharset186\fprq2 Calibri Baltic;}{\f663\fbidi \fswiss\fcharset238\fprq2 Tahoma CE;}{\f664\fbidi \fswiss\fcharset204\fprq2 Tahoma Cyr;}
+{\f666\fbidi \fswiss\fcharset161\fprq2 Tahoma Greek;}{\f667\fbidi \fswiss\fcharset162\fprq2 Tahoma Tur;}{\f668\fbidi \fswiss\fcharset177\fprq2 Tahoma (Hebrew);}{\f669\fbidi \fswiss\fcharset178\fprq2 Tahoma (Arabic);}
+{\f670\fbidi \fswiss\fcharset186\fprq2 Tahoma Baltic;}{\f671\fbidi \fswiss\fcharset163\fprq2 Tahoma (Vietnamese);}{\f672\fbidi \fswiss\fcharset222\fprq2 Tahoma (Thai);}{\f2713\fbidi \fswiss\fcharset238\fprq2 Candara CE;}
+{\f2714\fbidi \fswiss\fcharset204\fprq2 Candara Cyr;}{\f2716\fbidi \fswiss\fcharset161\fprq2 Candara Greek;}{\f2717\fbidi \fswiss\fcharset162\fprq2 Candara Tur;}{\f2720\fbidi \fswiss\fcharset186\fprq2 Candara Baltic;}
+{\flomajor\f31508\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\flomajor\f31509\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\flomajor\f31511\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}
+{\flomajor\f31512\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\flomajor\f31513\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\flomajor\f31514\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}
+{\flomajor\f31515\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\flomajor\f31516\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\fdbmajor\f31518\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}
+{\fdbmajor\f31519\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\fdbmajor\f31521\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\fdbmajor\f31522\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}
+{\fdbmajor\f31523\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\fdbmajor\f31524\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\fdbmajor\f31525\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}
+{\fdbmajor\f31526\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\fhimajor\f31528\fbidi \froman\fcharset238\fprq2 Cambria CE;}{\fhimajor\f31529\fbidi \froman\fcharset204\fprq2 Cambria Cyr;}
+{\fhimajor\f31531\fbidi \froman\fcharset161\fprq2 Cambria Greek;}{\fhimajor\f31532\fbidi \froman\fcharset162\fprq2 Cambria Tur;}{\fhimajor\f31535\fbidi \froman\fcharset186\fprq2 Cambria Baltic;}
+{\fbimajor\f31538\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\fbimajor\f31539\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\fbimajor\f31541\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}
+{\fbimajor\f31542\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\fbimajor\f31543\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\fbimajor\f31544\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}
+{\fbimajor\f31545\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\fbimajor\f31546\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\flominor\f31548\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}
+{\flominor\f31549\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\flominor\f31551\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\flominor\f31552\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}
+{\flominor\f31553\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\flominor\f31554\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\flominor\f31555\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}
+{\flominor\f31556\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\fdbminor\f31558\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\fdbminor\f31559\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}
+{\fdbminor\f31561\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\fdbminor\f31562\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\fdbminor\f31563\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}
+{\fdbminor\f31564\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\fdbminor\f31565\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\fdbminor\f31566\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}
+{\fhiminor\f31568\fbidi \fswiss\fcharset238\fprq2 Calibri CE;}{\fhiminor\f31569\fbidi \fswiss\fcharset204\fprq2 Calibri Cyr;}{\fhiminor\f31571\fbidi \fswiss\fcharset161\fprq2 Calibri Greek;}{\fhiminor\f31572\fbidi \fswiss\fcharset162\fprq2 Calibri Tur;}
+{\fhiminor\f31575\fbidi \fswiss\fcharset186\fprq2 Calibri Baltic;}{\fbiminor\f31578\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\fbiminor\f31579\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}
+{\fbiminor\f31581\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\fbiminor\f31582\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\fbiminor\f31583\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}
+{\fbiminor\f31584\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\fbiminor\f31585\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\fbiminor\f31586\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;
+\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red79\green129\blue189;}{\*\defchp \f37 }{\*\defpap 
+\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 }\noqfpromote {\stylesheet{\qj \li0\ri0\sa360\sl360\slmult1\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext0 \sqformat \styrsid4466187 Normal;}{\s1\qj \li0\ri0\sb240\sa60\sl360\slmult1\keepn\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \ab\af0\afs40\alang1025 \ltrch\fcs0 
+\b\fs40\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \slink34 \sqformat heading 1;}{\s2\qj \li0\ri0\sb240\sa60\sl360\slmult1\keepn\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \ab\af0\afs28\alang1025 
+\ltrch\fcs0 \b\fs28\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \slink23 \sqformat heading 2;}{\s3\qj \li0\ri0\sb240\sa60\sl360\slmult1\keepn\nowidctlpar\wrapdefault\faauto\outlinelevel2\rin0\lin0\itap0 \rtlch\fcs1 
+\ab\af0\afs24\alang1025 \ltrch\fcs0 \b\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \slink37 \sqformat heading 3;}{\s4\qj \li0\ri0\sb240\sa60\sl360\slmult1\keepn\nowidctlpar\wrapdefault\faauto\outlinelevel3\rin0\lin0\itap0 
+\rtlch\fcs1 \ab\af37\afs28\alang1025 \ltrch\fcs0 \b\f37\fs28\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \slink25 \sqformat heading 4;}{\s6\qj \li0\ri0\sb240\sa60\sl360\slmult1
+\nowidctlpar\wrapdefault\faauto\outlinelevel5\rin0\lin0\itap0 \rtlch\fcs1 \ab\af37\afs22\alang1025 \ltrch\fcs0 \b\f37\fs22\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \slink27 \sqformat heading 6;}{
+\s7\qj \li0\ri0\sb240\sa60\sl360\slmult1\nowidctlpar\wrapdefault\faauto\outlinelevel6\rin0\lin0\itap0 \rtlch\fcs1 \af37\afs24\alang1025 \ltrch\fcs0 \f37\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon6 \snext0 \slink28 \sqformat 
+heading 7;}{\s8\qj \li0\ri0\sb240\sa60\sl360\slmult1\nowidctlpar\wrapdefault\faauto\outlinelevel7\rin0\lin0\itap0 \rtlch\fcs1 \ai\af37\afs24\alang1025 \ltrch\fcs0 \i\f37\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 
+\sbasedon7 \snext0 \slink29 \sqformat heading 8;}{\s9\qj \li0\ri0\sb240\sa60\sl360\slmult1\nowidctlpar\wrapdefault\faauto\outlinelevel8\rin0\lin0\itap0 \rtlch\fcs1 \af36\afs22\alang1025 \ltrch\fcs0 
+\f36\fs22\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon8 \snext0 \slink30 \sqformat heading 9;}{\*\cs10 \additive \sunhideused \spriority1 Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tblind0\tblindtype3\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv 
+\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \f37\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext11 \ssemihidden \sunhideused \sqformat Normal Table;}{
+\s15\ql \li0\ri0\nowidctlpar\tx1584\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon66 \snext0 \spriority0 Chapter Heading;}{
+\s16\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext16 Box List;}{\s17\qj \li0\ri0\nowidctlpar
+\tqc\tx4680\tqc\tx9360\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext17 \slink18 footer;}{\*\cs18 \additive \rtlch\fcs1 \af0 \ltrch\fcs0 
+\sbasedon10 \slink17 \slocked \ssemihidden Footer Char;}{\s19\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon38 \snext19 
+Lower Case List;}{\s20\ql \li1440\ri1440\sa120\nowidctlpar\wrapdefault\faauto\rin1440\lin1440\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext20 Block Text;}{
+\s21\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext21 Triangle List;}{
+\s22\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon38 \snext22 Upper Case List;}{\*\cs23 \additive \rtlch\fcs1 
+\ab\ai\af0\afs28 \ltrch\fcs0 \b\i\f36\fs28 \sbasedon10 \slink2 \slocked \ssemihidden \spriority9 Heading 2 Char;}{\s24\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext24 Bullet List;}{\*\cs25 \additive \rtlch\fcs1 \ab\af0\afs28 \ltrch\fcs0 \b\fs28 \sbasedon10 \slink4 \slocked \ssemihidden \spriority9 Heading 4 Char;}{
+\s26\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext26 Heart List;}{\*\cs27 \additive \rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b 
+\sbasedon10 \slink6 \slocked \ssemihidden \spriority9 Heading 6 Char;}{\*\cs28 \additive \rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24 \sbasedon10 \slink7 \slocked \ssemihidden \spriority9 Heading 7 Char;}{\*\cs29 \additive \rtlch\fcs1 \ai\af0\afs24 
+\ltrch\fcs0 \i\fs24 \sbasedon10 \slink8 \slocked \ssemihidden \spriority9 Heading 8 Char;}{\*\cs30 \additive \rtlch\fcs1 \af0 \ltrch\fcs0 \f36 \sbasedon10 \slink9 \slocked \ssemihidden \spriority9 Heading 9 Char;}{
+\s31\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext31 Square List;}{\s32\qj \li0\ri0\sa60\sl360\slmult1
+\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af36\afs24\alang1025 \ltrch\fcs0 \f36\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \slink33 \sqformat Subtitle;}{\*\cs33 \additive \rtlch\fcs1 \af0\afs24 
+\ltrch\fcs0 \f36\fs24 \sbasedon10 \slink32 \slocked \spriority11 Subtitle Char;}{\*\cs34 \additive \rtlch\fcs1 \ab\af0\afs32 \ltrch\fcs0 \b\f36\fs32\kerning32 \sbasedon10 \slink1 \slocked \spriority9 Heading 1 Char;}{
+\s35\qj \li0\ri0\sa360\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext35 \slink36 footnote text;}{\*\cs36 \additive \rtlch\fcs1 
+\af0\afs20 \ltrch\fcs0 \fs20 \sbasedon10 \slink35 \slocked \ssemihidden Footnote Text Char;}{\*\cs37 \additive \rtlch\fcs1 \ab\af0\afs26 \ltrch\fcs0 \b\f36\fs26 \sbasedon10 \slink3 \slocked \ssemihidden \spriority9 Heading 3 Char;}{
+\s38\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext38 Numbered List;}{
+\s39\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext39 Diamond List;}{
+\s40\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext40 \sqformat No Spacing;}{\s41\ql \li0\ri0\nowidctlpar
+\tx1584\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon66 \snext0 Section Heading;}{\s42\qj \li0\ri0\nowidctlpar
+\tqc\tx4680\tqc\tx9360\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext42 \slink43 header;}{\*\cs43 \additive \rtlch\fcs1 \af0 \ltrch\fcs0 
+\sbasedon10 \slink42 \slocked Header Char;}{\s44\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon38 \snext44 
+Upper Roman List;}{\s45\qj \li0\ri0\sa360\sl360\slmult1\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \ab\af0\afs20\alang1025 \ltrch\fcs0 \b\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sqformat caption;}{
+\s46\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext46 Light Shading1;}{\s47\qj \li0\ri0\sb240\sa60\sl360\slmult1
+\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \ab\af36\afs32\alang1025 \ltrch\fcs0 \b\f36\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext47 \slink48 \sqformat Title;}{\*\cs48 \additive \rtlch\fcs1 \ab\af0\afs32 
+\ltrch\fcs0 \b\f36\fs32\kerning28 \sbasedon10 \slink47 \slocked \spriority10 Title Char;}{\s49\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext49 Hand List;}{\s50\qc \li0\ri0\sb240\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs32\alang1025 \ltrch\fcs0 
+\b\f1\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 Contents Header;}{\s51\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af2\afs24\alang1025 \ltrch\fcs0 
+\f2\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext51 \slink52 Plain Text;}{\*\cs52 \additive \rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20 \sbasedon10 \slink51 \slocked \ssemihidden Plain Text Char;}{
+\s53\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext53 Star List;}{\*\ts54\tsrowd\trbrdrt\brdrs\brdrw10\brdrcf1 \trbrdrl
+\brdrs\brdrw10\brdrcf1 \trbrdrb\brdrs\brdrw10\brdrcf1 \trbrdrr\brdrs\brdrw10\brdrcf1 \trbrdrh\brdrs\brdrw10\brdrcf1 \trbrdrv\brdrs\brdrw10\brdrcf1 
+\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tblind0\tblindtype3\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv 
+\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \f37\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon11 \snext54 \spriority59 Table Grid;}{
+\s55\qj \li0\ri0\sa360\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af40\afs16\alang1025 \ltrch\fcs0 \f40\fs16\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext55 \slink56 Balloon Text;}{\*\cs56 \additive \rtlch\fcs1 
+\af40\afs16 \ltrch\fcs0 \f40\fs16 \sbasedon10 \slink55 \slocked \ssemihidden Balloon Text Char;}{\s57\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext57 Implies List;}{\s58\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext58 Tick List;}{\s59\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 
+\sbasedon0 \snext0 Contents 1;}{\s60\ql \li0\ri0\nowidctlpar\tx431\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon3 \snext0 Numbered Heading 3;}{
+\s61\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext61 Lower Roman List;}{\*\cs62 \additive \fs20 Reference;}{
+\s63\qj \li0\ri0\sa360\sl360\slmult1\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext63 \slink64 \ssemihidden \sunhideused endnote text;}
+{\*\cs64 \additive \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f0\fs20 \sbasedon10 \slink63 \slocked \ssemihidden Endnote Text Char;}{\*\cs65 \additive \fs20 Reference1;}{\s66\ql \li0\ri0\nowidctlpar\tx431\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 
+\af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon1 \snext0 Numbered Heading 1;}{\s67\ql \li0\ri0\nowidctlpar\tx431\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon2 \snext0 Numbered Heading 2;}{\s68\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext68 Dashed List;}{\s69\qj \li0\ri0\sa360\sl480\slmult1\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 
+\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext69 Footnote;}{\s70\qj \li0\ri0\sb200\sa280\sl360\slmult1\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \slink71 \sqformat Intense Quote;}{\*\cs71 \additive \rtlch\fcs1 \ab\ai\af0\afs24 \ltrch\fcs0 \b\i\f0\fs24\cf17 \sbasedon10 \slink70 \slocked \spriority30 Intense Quote Char;}{
+\s72\ql \fi-431\li1440\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1440\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 Contents 2;}{
+\s73\ql \fi-431\li2160\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin2160\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 Contents 3;}{
+\s74\ql \fi-431\li2880\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin2880\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 Contents 4;}}{\*\rsidtbl \rsid4466187\rsid15940446}
+{\mmathPr\mmathFont34\mbrkBin0\mbrkBinSub0\msmallFrac0\mdispDef1\mlMargin0\mrMargin0\mdefJc1\mwrapIndent1440\mintLim0\mnaryLim1}{\info{\author Omar Lizardo}{\operator Omar Lizardo}{\creatim\yr2009\mo5\dy19\hr13\min55}{\revtim\yr2009\mo5\dy19\hr14\min3}
+{\version2}{\edmins7}{\nofpages29}{\nofwords7990}{\nofchars45543}{\*\company University of Notre Dame}{\nofcharsws53427}{\vern32769}}{\*\xmlnstbl {\xmlns1 http://schemas.microsoft.com/office/word/2003/wordml}}
+\paperw12240\paperh15840\margl1440\margr1440\margt1440\margb1440\gutter0\ltrsect 
+\widowctrl\ftnbj\aenddoc\trackmoves0\trackformatting1\donotembedsysfont0\relyonvml0\donotembedlingdata1\grfdocevents0\validatexml0\showplaceholdtext0\ignoremixedcontent0\saveinvalidxml0\showxmlerrors0\horzdoc\dgmargin\dghspace120\dgvspace120\dghorigin1440
+\dgvorigin1440\dghshow0\dgvshow3\jcompress\viewkind1\viewscale150\rsidroot4466187 \fet0{\*\wgrffmtfilter 2813}\ilfomacatclnup0{\*\ftnsep \ltrpar \pard\plain \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4466187 \rtlch\fcs1 
+\af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 \chftnsep 
+\par }}{\*\ftnsepc \ltrpar \pard\plain \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4466187 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\insrsid4466187 \chftnsepc 
+\par }}{\*\aftnsep \ltrpar \pard\plain \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4466187 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\insrsid4466187 \chftnsep 
+\par }}{\*\aftnsepc \ltrpar \pard\plain \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4466187 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\insrsid4466187 \chftnsepc 
+\par }}\ltrpar \sectd \ltrsect\sbknone\linex0\headery576\footery0\colsx360\sectlinegrid326\sectdefaultcl\sectrsid4466187\sftnbj {\headerr \ltrpar \pard\plain \ltrpar\s42\qr \li0\ri0\nowidctlpar\tqc\tx4680\tqc\tx9360\wrapdefault\faauto\rin0\lin0\itap0 
+\rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\field{\*\fldinst {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187  PAGE   \\* MERGEFORMAT }}{\fldrslt {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\lang1024\langfe1024\noproof\insrsid15940446 9}}}\sectd \ltrsect\linex0\endnhere\sectdefaultcl\sftnbj {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+\par }}{\footerr \ltrpar \pard\plain \ltrpar\s17\qj \li0\ri0\sa360\widctlpar\tqc\tx4680\tqc\tx9360\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid4466187 
+\par }}{\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta )}}
+{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl8
+\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}\pard\plain \ltrpar\s3\qj \li0\ri0\sb240\sa60\sl360\slmult1
+\keepn\widctlpar\wrapdefault\faauto\outlinelevel2\rin0\lin0\itap0 \rtlch\fcs1 \ab\af0\afs24\alang1025 \ltrch\fcs0 \b\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 {\*\bkmkstart _Toc131839864}
+The effect of cultural taste diversity on the instrumental use of social ties:  reconsidering the functional role of cultural capital}{\rtlch\fcs1 \ab0\af0 \ltrch\fcs0 \insrsid4466187 
+\par }\pard\plain \ltrpar\qj \li0\ri0\sa360\sl360\slmult1\widctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+\par Abstract
+\par Recent research in the sociology of culture has argued and provided empirical evidence for the general propositi
+on that persons who have diverse tastes should be more likely to also have larger personal networks, and should also be more likely to have social ties that span relatively larger distances in social space. A different strand of network theory focuses not
+ only on relative differences in the size and \'93reach\'94
+ of personal networks but also on the relative opportunities and resources that are made available to individuals by virtue of having those ties.  In this paper, I draw a theoretical link between cultural
+ capital, in the form of a command of a variety of cultural resources and the instrumental use of social ties. I build on the general connection between culture consumption and sociability which has been the focus of recent research in the sociology of cu
+lture.  I propose a model in which the possession of cultural resources leads to a higher likelihood of activation of networks ties. The results show that net of other individual predictors, as the cultural variety of the person\rquote 
+s repertoire of tastes incre
+ases, there is 1) a higher likelihood of activating social ties to obtain information about jobs, and 2) a higher likelihood that the tie activation is through a weak, rather than a strong tie which 3) leads them to be less likely to experience long unemp
+loyment spells.  I close by considering the theoretical implications of these findings for how we conceptualize the notion of \'93cultural capital.\'94
+\par }\pard\plain \ltrpar\s2\qj \li0\ri0\sb240\sa60\sl360\slmult1\keepn\widctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \ab\af0\afs28\alang1025 \ltrch\fcs0 \b\fs28\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab0\af0\afs24 \ltrch\fcs0 \insrsid4466187 \page Introduction{\*\bkmkend _Toc131839864}
+\par }\pard\plain \ltrpar\qj \li0\ri0\sa360\sl360\slmult1\widctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+Recent research in the sociology of culture, has argued and provided empirical evidence for the g
+eneral proposition that culture consumption should be connected to networks of larger size, and that cultural variety, especially of cultural aptitudes that are widely accessible and are spread fairly evenly across the social structure, is associated with
+ the individual possession of social ties that span relatively larger distances in social space ().  For instance,  Erickson (1996: 247) notes that \'93[t]he more diverse the set of\'85
+contacts one has, the more variety of culture one will encounter and hence maintain or learn\'85Thus network variety is one important source of cultural variety.\'94
+  DiMaggio, in attempting to explain the long-standing association between SES and increasing rates of culture consumption (both in terms of quantity and variety of forms consumed), notes that, \'93
+The reason for this finding, so at odds with conventional notions about the isomorphism of taste and class\'85, is that wide-ranging networks require broad repertoires of taste\'94 (1987:  444).   Lizardo (2006) in a recent paper on the assoc
+iation between culture consumption and social networks highlights the additional process of how tastes are converted into network ties.  Lizardo concludes that in the same way that network variety leads to cultural variety, having a wide-ranging repertoir
+e of tastes is necessary to }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 sustain }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+large networks, especially in the face of the large-scale volatility of personal relationships among high status persons, who are increasingly subject to pressures related to geographical mobility and other lifestyle choi
+ces that serve to disrupt current network relations.  
+\par An extensive strand of network theory, however, focuses not only on relative differences in the size and density of individual networks\emdash indexed by positional measures such as the various centrality indices ()\emdash but also on the relative }{
+\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 resources}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+ that are made available to individuals by virtue of having those ties (), and thus the differential opportunities to access those resources in times of need.  In other words, networks are transformed from a potential store of benefits to actual}{
+\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187  social capital}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187  only in the process of agentic }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 activation}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+ of social ties () such as for the purposes of dealing with practical problems and issues like finding a job () or obtaining social support in the form of instrumental 
+benefits or emotional support ().  In this paper, I draw a link between cultural capital, in the form of a command of a }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 variety of cultural resources }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+(DiMaggio 1987, Erickson 1996) and network activation.    I build on the general link between culture cons
+umption and sociability which has been the focus of recent research in the sociology of culture () to propose a model in which the possession of cultural resources leads to a higher likelihood of activation of networks ties.
+\par This paper is organized as foll
+ows: in the next section, I briefly review the literature on the sources and consequences of network activation. I then follow with a discussion of how we can use the general association between culture consumption and sociability in order to develop some
+ 
+theoretical intuition connecting the possession of variety-driven cultural capital and the likelihood of using social networks in a purposive way.  In the next section I provide evidence that indeed culture consumption is positively tied to network activa
+t
+ion, by analyzing data on the individual determinants of the prototypical form of network activation that has dominated the literature on social capital:  using social networks to learn about job opportunities.  The results show that net of other individu
+al predictors, as the cultural variety of the individuals\rquote 
+ repertoire of tastes increases, there is 1) a higher likelihood of activating social ties to obtain information about jobs, and 2) a higher likelihood that the tie activation is through a weak, rath
+er than a strong tie. Which leads to 3) a relatively lower likelihood of experiencing long unemployment spells.   I close by providing a general assessment of the implications of the results and proposals for future research.
+\par }\pard\plain \ltrpar\s2\qj \li0\ri0\sb240\sa60\sl360\slmult1\keepn\widctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \ab\af0\afs28\alang1025 \ltrch\fcs0 \b\fs28\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab0\af0\afs24 \ltrch\fcs0 \insrsid4466187 Network ties as \'93social capital\'94
+\par }\pard\plain \ltrpar\qj \li0\ri0\sa360\sl360\slmult1\widctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+There are at least two primary ways in which social ties have been conceived as \'93valuable\'94 to individual in contemporary network theory and thus as a source of \'93social capital\'94
+ ()  The first way has to do with the benefits that can be accrued from having a wide }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 range}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187  and }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 diversity}{
+\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187  of contacts ().  The conception of contact diversity as \'93social capital\'94 relies on the well-established observation, first formulated in Granovetter\rquote 
+s () classic paper, that contact homogeneity in sociodemographic traits is associated with information }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 redundancy}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+, while contact heterogeneity is associated with access to }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 novel}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+ sources of information. Whenever instrumental pursuits require access to novel sources of information\emdash as when individuals use social contacts to learn about employment opportunities (Granovetter 1995)\emdash 
+those who are connected to diverse information sources will be more likely to learn about opportunities not otherwise accessible through the local network.  Because extra-local information is more likely to be a
+ccessed through weak ties rather than strong ties, weak ties should provide the individual with an informational advantage not available to those embedded in local cliques.  This is the \'93strength of weak ties\'94 argument.
+\par Studies of the association between s
+ocial position and network characteristics appear to support the strength of weak ties argument.  For instance, a well-established theme in network theory and research concern the long-standing association between socioeconomic status and the social diver
+s
+ity of contacts to whom the individual is connected.  As Lin and collaborators have found (), higher status individuals are more likely to have social connections that span a wider distance in social space than low status individuals. An extensive variety
+ of empirical evidence (mostly obtained through empirical examination of the \'93core discussion network\'94) supports this contention.  Marsden (:  129) for instance, considering the characteristics of the \'93core discussion network\'94
+ of the American population obtained using the 1985 network module of the General Social Survey (GSS), finds that the \'93\'85alters of the networks of the educated are less likely to be closely connected to one another.\'94
+  The higher educated also tend to enjoy more diverse networks along suc
+h dimensions as gender and age ().  Goldstein and Warren (), using combined data from the 1994 GSS and the Survey of American Families (which collected data on sociodemographic characteristics of respondent\rquote 
+s kin including brothers and sisters), reproduce 
+this finding for the entire kin network:  high status individuals have more heterogeneous kin networks (as measured by the standard deviation of educational attainment and occupational standing) than low status individuals.  
+\par Lin and collaborators report results that are consistent with the argument in their attempt to test the \'93strength of position proposition\'94 of Lin\rquote 
+s network theory of status attainment.  Lin and Dumin (1986) using the position generator method (:  90) find that occupational status is positively associated both with the }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 number}{\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid4466187  of social positions (defined as a detailed occupational classification) that the person is connected to (by having a friend in that job) as well as the }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 range}{\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid4466187  of positions (as defined by the standard deviation of occ
+upational prestige across the statuses).  That is those of higher status are not only more likely to be connected to other persons of higher status, but are more likely to have social ties with persons of dissimilar status than are low status individuals 
+(Erickson 1996).
+\par The second way in which social connections have been conceived as \'93social capital\'94 in network theory has to do with a factor that should be correlated with network diversity:  the probability of having access to contacts that control or hav
+e access to desirable resources, such as influence, or who occupy high status positions.  According to Lin\rquote s () structural theory of status attainment, lack of local clustering in the immediate social network is correlated with the }{\rtlch\fcs1 
+\af0 \ltrch\fcs0 \i\insrsid4466187 resources}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 \emdash as measured by the socio-demographic characteristics of alters\emdash 
+embedded in that network.  This explains why individual current achieved status is correlated with a lack of clustering, as measured by the range of positions accessible through the network.  
+\par Lin\rquote s theoretical framework however, also connects individual\rquote s ascribed characteristics to the pattern of network relations that he or she currently occupies.  In Lin\rquote s () framework, resources associated with the individual\rquote 
+s status or origin should be associated with her current network structure, and should in part account for the association of current achieved status and local network structure.  In terms of Bourdieu\rquote 
+s (1986) theory of social capital, this is the process of \'93conversion\'94 of educational and economic capital in the family of origin into current social capital (which may then be converted into current economic capital).  
+\par The key point from Lin\rquote s point of view is that social capital is converted into desirable resources by way of the agentic }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 activation }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 o
+f existing social ties.  Thus, individuals derive advantage from static qualities of their social network (size, diversity, rage, etc.) when they are able to call upon the resources embedded in that network as a result of situational contingencies (i.e. n
+eeding help finding a job).  Thus, before being activated social capital remains in \'93stasis\'94 as it where, and it is only by specific instance of network usage that we can get an empirical handle on the concept of social capital (Lin 2001a; 2001b).
+
+\par }\pard\plain \ltrpar\s2\qj \li0\ri0\sb240\sa60\sl360\slmult1\keepn\widctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \ab\af0\afs28\alang1025 \ltrch\fcs0 \b\fs28\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab0\af0\afs24 \ltrch\fcs0 \insrsid4466187 Cultural capital and social networks
+\par }\pard\plain \ltrpar\qj \li0\ri0\sa360\sl360\slmult1\widctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+A key analytical limitation of network theories of social capital is that they take the observed pattern of network connections as largely }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 exogenous}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+ to the analysis.  That is, the fail to ask the question:  where do social ties 
+come from?  Recent research at the intersection of the sociology of culture and network theory has begun to address this issue.  In particular this research argues that insofar as social relationships are mediated through focused episodes of social intera
+ction, and given that interaction rituals in modern societies tend to revolve primarily around the discussion of symbolic and cultural goods () then individuals }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 
+cultural tastes, competences and life-style practices,}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187  should be a key predictor of both the size and range of personal networks.
+\par From this point of view, the mobilization of cultural aptitudes and knowledge in conversation  is clearly implicated in the }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 capacity }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+of individual actors to constantly generate new social ties (and thus sustain a large and
+ diverse social network over time), given recent empirical indications of the short lived and ephemeral nature of most network connections ().   This new strand of research therefore attempts to argue for the origins of the advantages produced by social n
+etwork from the }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 conversion }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 of cultural capital into social capital (Bourdieu 1986).  
+\par According to the cultural-capital theory inspired (i.e. ) \'93conversion model\'94 of cultural into social capital (; Lizardo 2006), the primary ways in which tastes are used to
+ sustain social networks, is by allowing the individual to connect to alters that are both relationally close\emdash when specialist or (narrow) \'93niche\'94 cultural tastes are concerned\emdash and relationally distant\emdash 
+when talking about aptitude for broad-niche, or \'93popular\'94 cultural forms.  From this perspective, culture consumption and the ability to decode and appropriate symbolic goods produced in the urban, folk and \'93culture-industry\'94
+ realms () are important resources that individuals mobilize in the }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 construction}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187  and }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 maintenance}{\rtlch\fcs1 
+\af0 \ltrch\fcs0 \insrsid4466187  of active social relationships ().  
+\par In this respect the culture conversion model is consistent with Lazarsfeld and Merton\rquote s () process model of friendship formation, with similarity based on cultural taste and practices () playing the role that \'93value-homophily\'94
+ played in the original formulation.  As (2005:  302) note in their recent study of the role of culture consumption in the formation of social connections among young adults in France, \'93\'85a large proportion of ordinary conversational inter
+action is generally devoted to comments\'85on cultural practices and recreational consumption. These are recurrent topics, present in a wide range of social situations\'85
+Many social relations are constructed, in different ways, around cultural and recreational activities.\'94
+\par That the origins of new\emdash and reproduction of previously existing\emdash 
+network connections comes from the deployment of cultural knowledge in interaction is implicit in previous models of the relationship between culture and social structure ().  For instance, the Carley-Mark () \'93constructural\'94
+ model can be interpreted as an elementary schema of how culture can be translated into social connections, and how social structure (the distribution of chances to interact across persons in the system) and cul
+tural structure (the distribution of cultural forms across persons) can be defined in an interdependent manner.  The constructural model is based on a simple assumption of similarity (homophily), which postulates that the likelihood of a social tie increa
+ses with the cultural similarity between any given dyad (a dynamic process similar to the one proposed in  and ).}{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs20\lang0\langfe1033\super\langnp0\insrsid4466187 \chftn {\footnote \ltrpar \pard\plain \ltrpar
+\qj \li0\ri0\sa360\sl360\slmult1\widctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+\par }\pard\plain \ltrpar\s35\qj \li0\ri0\sa360\widctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\lang0\langfe1033\super\langnp0\insrsid4466187 \chftn }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid4466187 
+ Contemporary network models of taste formation through social network ties () can be seen as partially based on the Lazarsfeld-Merton formulation.  However, these models raise what was explicitly a secondary dynamic in the original scheme\emdash 
+i.e. mutual \'93value-adjustment\'94 through social interaction of initially different value dispositions (:  33)\emdash to being the only operative, and thus primary dynamic.  It is clear however that for Lazarsfeld and Merton \'93selective\'94
+ processes whereby contacts are sifted based on similarity of attitudinal dispositions similar to those emphasized in the culture-conversion account were considered primary (1954:  22-29).}}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+  In this way the probability that two persons will interact is driven by their cultural similarity.  Interaction, in this positive feedback lo
+op, in its turn increases cultural similarity, as individuals exchange their stocks of knowledge with one another.   
+\par Thus we should expect that individuals who command a wide variety of tastes which cut across these well defined boundaries (i.e. those who have been referred to as \'93omnivores\'94
+ in recent research []) and who, given the stability assumption, will also be able to \'93keep\'94 that \'93tolerant\'94 taste pattern active over time\emdash will also be more effective in sustaining high rates of social interaction in their\emdash 
+constantly shifting, sparse and loosely bounded\emdash personal communities ().  
+\par Lizardo () using data from the 2002 General Social Survey, finds empirical evidence consistent with these theoretical propositions.  He finds that there is a monotonic relation
+ship between the average size of the personal network (as measured by a one-shot item which asked the respondent the number of persons that the he or she comes into contact with at least once a year) and the number of cultural activities\emdash 
+associated with both the fine and the popular arts\emdash 
+that the respondent reports having engaged in at least once in the past year.  In addition, the results of the analysis show that the number of as the number of cultural activities that the respondent engages in increases s
+o does the expected size of their personal network, even after accounting for simultaneity bias. Thus it is clear that as cultural capital\emdash defined as the capacity to engage in a wide variety of aesthetic pursuits ()\emdash 
+increases, access to larger (and by implication) more diverse social networks also increases.
+\par }\pard\plain \ltrpar\s2\qj \li0\ri0\sb240\sa60\sl360\slmult1\keepn\widctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \ab\af0\afs28\alang1025 \ltrch\fcs0 \b\fs28\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab0\af0\afs24 \ltrch\fcs0 \insrsid4466187 {\*\bkmkstart _Toc131839865}Empirical implications{\*\bkmkend _Toc131839865}
+\par }\pard\plain \ltrpar\s3\qj \li0\ri0\sb240\sa60\sl360\slmult1\keepn\widctlpar\wrapdefault\faauto\outlinelevel2\rin0\lin0\itap0 \rtlch\fcs1 \ab\af0\afs24\alang1025 \ltrch\fcs0 \b\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab0\af0 
+\ltrch\fcs0 \insrsid4466187 Cultural Capital and Informal Contact Use
+\par }\pard\plain \ltrpar\qj \li0\ri0\sa360\sl360\slmult1\widctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+If the consumption of a variety of cultural goods is connected to the size and density of an individual\rquote s personal network (DiMaggio 1987
+, Lizardo 2006), and if networks are a resource that is accessed when the individual requires either support, information or the projection of influence, we should expect those individual endowed with a more varied repertoire of tastes, to be able to sust
+ain not only larger personal networks, but also to be relatively more likely to }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 access}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+ those networks in a time of need.  Thus, one empirical implication of the model proposed so far is that cultural capital in the form of cultural variety should be connect
+ed with access of personal networks when individuals require information in comparison to non-relational forms of information search.
+\par H1:  }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\fs20\lang0\langfe1033\langnp0\insrsid4466187 Individuals who command a wide variety of cultural tastes are more likely to use relational resources when looking fo
+r a job in comparison to using non-relational resources.}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+\par Furthermore, we should not only expect cultural taste variety to be connected to the use of relational pathways to information and influence, but we should expect variety to be connected to informati
+on access pathways that are more likely to be realized by the presence of a }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 weak tie}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+ rather than a strong tie.  Unfortunately, the data available for this study do not discriminate between having obtained information regarding a job from an acquaintance or
+ from a friend or relative (these are all collapsed into the same category), but they do discriminate between having obtained information from one of these sources or having }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 heard from the employer directly
+}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 .  As noted by  (2005: 415), weak ties in contrast to strong ties, \'93transfer information and direct influence.\'94
+  The most obvious and common example of direct influence is of course a direct connection between the potential employer and the individual.  It follows therefore that any factor that increases 
+the probability of having a network richer in weak ties will increase the chances of any one individual already having a potential employer as an acquaintance.  If the relationship between cultural variety and network variety holds as shown previously (Li
+z
+ardo 2006), and if network variety is defined as having a network rich in contacts who are different from ego, and who are therefore more likely to be weak ties, we should expect that cultural variety will increase the chances of individuals having potent
+ial employers as acquaintances, and of thus mobilizing those weak ties when necessary:
+\par H2:  }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\fs20\lang0\langfe1033\langnp0\insrsid4466187 Individuals who command a wide variety of cultural tastes are more likely access relational pathways that are more likely to be associated with weak ties in comparis
+on to strong ties.}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+\par As noted by Blau and Robbins () and Holzer () individuals who use social contacts to learn about employment opportunities experience short unemployment spells than individuals who do not.  If this is correct and if cultural taste-breadth
+ is associated with being embedded in a larger, sparser and more heterogeneous personal community network, then we should expect cultural variety to be associated not only with the likelihood of using social contacts to learn about employment, but also wi
+th reduced unemployment spells for workers who have recently experienced employment interruptions:
+\par H3:  }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\fs20\lang0\langfe1033\langnp0\insrsid4466187 Individuals who command a wide variety of cultural tastes will have shorter unemployment spells.}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+\par }\pard\plain \ltrpar\s2\qj \li0\ri0\sb240\sa60\sl360\slmult1\keepn\widctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \ab\af0\afs28\alang1025 \ltrch\fcs0 \b\fs28\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab0\af0\afs24 \ltrch\fcs0 \insrsid4466187 {\*\bkmkstart _Toc131839867}{\*\bkmkstart _Toc131839866}Data{\*\bkmkend _Toc131839867} and Variables{\*\bkmkend _Toc131839866} 
+\par }\pard\plain \ltrpar\s3\qj \li0\ri0\sb240\sa60\sl360\slmult1\keepn\nowidctlpar\wrapdefault\faauto\outlinelevel2\rin0\lin0\itap0\pararsid4466187 \rtlch\fcs1 \ab\af0\afs24\alang1025 \ltrch\fcs0 \b\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {
+\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 2002 General Social Survey (GSS)
+\par }\pard\plain \ltrpar\qj \li0\ri0\sa360\sl360\slmult1\widctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 I u
+se data from the culture and network modules of the 2002 General Social Survey (Davis, Smith and Marsden, 2002). The GSS is administered biannually by the National Opinion Research Center (NORC) to a nationally representative sample of non-institutionaliz
+e
+d, English-Speaking American adults. The 2002 wave of the GSS contained a recurring module on participation in the arts (similar to ones fielded in 1993 and 1998), along with a new module related to social networks and social support.   The network module
+ contained a question asking the respondent to report the }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 method}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+ that they used to obtain their last job, which, in conjunction with the self-report measures of cultural participation, makes these data suitable for testing the hypotheses outlined above.  
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 {\*\bkmkstart _Toc128054367}{\*\bkmkstart _Toc131839852}Cultural Taste Indicators}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 {\*\bkmkend _Toc128054367}{\*\bkmkend _Toc131839852}
+. Respondents were asked to report whether they had engaged in the following activities during the past year: 1) gone to see a movie in a theater 2) gone to a live performance of popular music like rock, country, or rap 3) gone to a
+ live performance of a non-musical stage play 4) attended a live ballet or dance performance 5) gone to a classical music or opera performance and 6) visited an art museum or gallery and 7) read a novel, poem or play.  The variables are coded one if the r
+espondent engaged in that activity in the past year and zero otherwise.  As a measure of cultural variety, I create a linear index (Cronbach\rquote s }{\rtlch\fcs1 \af266 \ltrch\fcs0 \i\f266\insrsid4466187 \'e1 }{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\insrsid4466187 = 0.93) that equals the total number of cultural activities (ranging from zero to seven) that the respondent reported engaging in the last year.
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 Network activation indicator}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 .  This is measured through an item that asked the respondents to \'93indicate how y
+ou first [from whom] found out about work at your present employer\'94
+ respondents who were not currently working were asked to answer this question for their last job. A separate category was reserved for people who had never participated in the labor force.
+ I recode the original variable into a polytomous item containing seven categories:  1) }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 from a relative}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187  (10.6%), 2) }{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\i\insrsid4466187 from a close friend}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187  (20.2%), 2) }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 from an acquaintance }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 (13.4%), 4) }{\rtlch\fcs1 \af0 
+\ltrch\fcs0 \i\insrsid4466187 from a school,}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187  }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 public or private placement service }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 (13.1%) , 5) }{\rtlch\fcs1 
+\af0 \ltrch\fcs0 \i\insrsid4466187 from an advertisement or a sign}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187  (16.4%), 6) }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 directly contacted by employer }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+(9.7%),  and 7) }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 directly contacted the employer (in person or by phone) }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 (16.6%)}{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 .  }{\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid4466187 Respondents coded as having answered \'93Don\rquote t Know\'94 are set to missing on the outcome.  About 44% of respondents
+ found out about their job from a social contact (either through relatives, close friends or acquaintances).  However, and consistent with previous research and theory, among respondents who did use a social contact, respondents were more than twice as li
+kely to rely on a strong tie (relatives or close friends) in comparison to using a weak tie.  }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+\par }\pard\plain \ltrpar\s3\qj \li0\ri0\sb240\sa60\sl360\slmult1\keepn\widctlpar\wrapdefault\faauto\outlinelevel2\rin0\lin0\itap0 \rtlch\fcs1 \ab\af0\afs24\alang1025 \ltrch\fcs0 \b\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab0\af0 
+\ltrch\fcs0 \insrsid4466187 2002 Survey for Public Participation in the Arts (SPPA)
+\par }\pard\plain \ltrpar\qj \li0\ri0\sa360\sl360\slmult1\widctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+the 2002 Survey of Public Participation in the Arts (SPPA) a periodic (fielded roughly every 4-6 years) s
+urvey of the non-institutionalized American population regarding arts and popular culture consumption practices and habits sponsored by the National Endowment for the Arts.  For funding-related reasons 2002 the SPPA was administered by the U.S. Census Bur
+eau as a supplement to the Current Population Survey (CPS). About 25% of the households that were interviewed for the CPS also received questions from the SPPA. 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 {\*\bkmkstart _Toc131839868}Cultural variety {\*\bkmkend _Toc131839868}index}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 .}{\rtlch\fcs1 \af0 \ltrch\fcs0 \b\insrsid4466187   }{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\insrsid4466187 As a measure of cultural variety in tastes, I create a linear scale th
+at is equal to the total number of cultural activities and practices that the respondent reports having engaged in the past 12 months.  Respondents were queried about their musical tastes, their attendance of  public performances of music, theater and dan
+c}{\rtlch\fcs1 \af266 \ltrch\fcs0 \f266\insrsid4466187 
+e, as well as their reading habits (reading non-fiction, plays, poetry and fiction) and whether they had attend the movies, a sports event or an amusement park, for a total of 38 items. The scale has good reliability (Cronbach\rquote s \'e1
+ = 0.90) showing that we a}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 re indeed tapping a single unidimensional   construct (cultural breadth or variety).  
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 Network activation indicator}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+ Because the 2002 SPPA survey was conducted as part the Current Population Survey, detailed information is available on a variety of job, ind
+ustry and occupation related outcomes for each respondent.   The particular subset of respondents (N=540) that we are interested in for the purposes of this study are those that are currently unemployed but that are actively looking for a job.}{
+\rtlch\fcs1 \af0 \ltrch\fcs0 \fs20\lang0\langfe1033\super\langnp0\insrsid4466187 \chftn {\footnote \ltrpar \pard\plain \ltrpar\s35\qj \li0\ri0\sa360\widctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 
+\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \lang0\langfe1033\super\langnp0\insrsid4466187 \chftn }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid4466187 
+ According to the U.S. Bureau of Labor Statistics, these individuals must meet the follo
+wing four requirements:  1) they are adult civilians; 2) they did not hold a job during the preceding week; 3) they were available to take a job if one were offered; and 4) during the preceding month, they had sought work through specific "active" methods
+ that put them in touch with employers.}}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187   As part of the CPS, those respondents who reported that the \'93tried to find work within the last four weeks\'94
+ were asked the various means that they tried to find work.  Overall respondents identified 12 different ways in which they attempted to find a job in the last
+ month.  The distribution of respondent-choices (some respondents yield more than one observation since they report having attempted multiple strategies) across the job search strategy categories is shown in .  The table shows that, not surprisingly sendi
+ng out a resume of filling out an application is the most prevalent way in which individual go about searching for employment, with close to 24 percent of respondents reporting having used that method in the past month.  }{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\i\insrsid4466187 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 Two }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 network}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187  }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 based}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\insrsid4466187  }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 strategies}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187  are shown in the table, (1) }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 contacting the employer directly }{\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid4466187 (10.5%)}{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187  }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 (), and (2) }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 contacting friends and relatives}{\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid4466187  (10.9%) ().  For the purposes of constructing a measure of network activation, I count the respondent as having }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 activated a social tie}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\insrsid4466187  if he or she 
+reports having used any of the two network-based strategies in the past month (about 21% of respondents).  Because persons are much more likely to have direct access to an employer through a weak tie (), I use having resorted to the }{\rtlch\fcs1 \af0 
+\ltrch\fcs0 \i\insrsid4466187 direct contact strategy }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+as a measure of weak tie activation of the job-contact network.  Finally I create a binary variable that equals one if the respondent reports having contacted family a friends in order to find a job, which I label a }{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\i\insrsid4466187 mediated contact strategy}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187  as a measure of strong tie activation of the job-contact network.
+\par The descriptive statistics (the average proportion of respondents who engaged in each activity) is shown on .  The table shows that the three most popular activities are, not surprising, going to the mov
+ies, reading a book and listening to rock music.  The three most restricted activities are those associated with traditionally the fine performance arts and literature (Peterson and Kern 1996):  reading a play, going to the opera and attending the ballet.
+  For the subset of respondents that will form part of the empirical analysis\emdash as detailed below\emdash the mean number of cultural activities engaged in 9.3 with a standard deviation of 6.9.
+\par }\pard\plain \ltrpar\s2\qj \li0\ri0\sb240\sa60\sl360\slmult1\keepn\widctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \ab\af0\afs28\alang1025 \ltrch\fcs0 \b\fs28\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab0\af0\afs24 \ltrch\fcs0 \insrsid4466187 {\*\bkmkstart _Toc131839870}Results{\*\bkmkend _Toc131839870}
+\par }\pard\plain \ltrpar\s3\qj \li0\ri0\sb240\sa60\sl360\slmult1\keepn\widctlpar\wrapdefault\faauto\outlinelevel2\rin0\lin0\itap0 \rtlch\fcs1 \ab\af0\afs24\alang1025 \ltrch\fcs0 \b\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab0\af0 
+\ltrch\fcs0 \insrsid4466187 {\*\bkmkstart _Toc131839871}The effect of cultural taste on network activation{\*\bkmkend _Toc131839871}
+\par }\pard\plain \ltrpar\qj \li0\ri0\sa360\sl360\slmult1\widctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+Table 3 shows 
+the mean number of cultural activities for respondents who used a network based strategy in the past month to look for a job and those who did not.  Because all of the hypotheses considered in this paper are directional, I use one-tailed tests of statisti
+c
+al significance. Consistent, with hypothesis one, there is a noticeable difference in the cultural variety index score for respondents who resorted to a relational strategy in comparison to those who did not, with the first group consuming on average 1.38
+ more cultural forms than the latter group, a statistically significant difference (}{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 t}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 =2.16, }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 p}{\rtlch\fcs1 
+\af0 \ltrch\fcs0 \insrsid4466187 <0.05).   In the bottom two rows of the table, I perform a similar comparison as that shown in the top half of the table, but this time only among those respondents
+ that reported having a used a network strategy.  I divide this last groups between those who are likely to have accessed a strong tie (contacted family and friends) or accessed a weak tie (contracted the employer directly).  The results support hypothesi
+s 2: among respondents who used a socially embedded strategy to find a job, those who mobilized a weak tie consume about 2.2 more genres than those who mobilized strong ties (}{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 t}{\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid4466187 =1.80, }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 p}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 <0.05, one-tailed test).  
+\par  shows the results of a more rigorous test of 
+the two hypotheses.  The first column shows the coefficient estimate for a bivariate logistic regression with the binary variable indexing whether the respondent used a network-based job search strategy as the dependent variable and the cultural variety i
+ndex score as the lone predictor.}{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs20\lang0\langfe1033\super\langnp0\insrsid4466187 \chftn {\footnote \ltrpar \pard\plain \ltrpar\s35\qj \li0\ri0\sa360\widctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 
+\af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \lang0\langfe1033\super\langnp0\insrsid4466187 \chftn }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid4466187 
+ Because some respondents contribute more than one observation, the total number of cases in the logistic regression models is 736 instead of the original 540.  Standard errors are adjusted for the clustering of mult
+iple observations on the same respondent using the now standard Hubert-Sandwhich \'93robust\'94 method.}}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+  The results nicely replicate those shown in Table 3:  persons who consume a wide variety of culture are more likely to use a relational strategy over a non-relational strategy when looking for a job (}{\rtlch\fcs1 \af266 \ltrch\fcs0 
+\i\f266\insrsid4466187 \'e2}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 =0.025, }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 p}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 <0.05).  
+\par Nevertheless, it is possible that the effect of consumption variety on the probability of having used a network strategy to find a job is spurious.  Perhaps, younger persons are more likely to use existing social contacts to search for 
+a job, and they are also more likely to consume a wider variety of cultural offerings.  The same argument can be made for more educated respondents and those whose previous job was a high status job (as measured by the occupational prestige score for the 
+o
+ccupation):  it is well known that more educated and higher SES respondents are more likely to have larger and more diverse social networks (), and they are also more likely to consume a wider variety of cultural forms (Bryson 1996; DiMaggio 1987; ).  The
+ same argument for spuriousness can be made in regards to unaccounted for heterogeneity among respondents based on gender and race.
+\par Model 2 of  shows what happens after we hold constant the person\rquote s race, gender, educational attainment and age category.  Contra the spuriousness argument, I find that }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 none}{\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid4466187  of these socio-demographic variables are a significant predictor of using a network strategy to search for job.  In fact including these effects makes the overall fit of the model as measured by the }{\rtlch\fcs1 \af266 
+\ltrch\fcs0 \f266\insrsid4466187 \'f7}{\rtlch\fcs1 \af0 \ltrch\fcs0 \super\insrsid4466187 2}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187  deteriorate towards non-significance (}{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\f2716\insrsid4466187 \'f7}{\rtlch\fcs1 \af0 
+\ltrch\fcs0 \i\super\insrsid4466187 2}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 =10.21, }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 p}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+=0.25).  This suggests that the simple bivariate model is a better specification than the one including the person\rquote s socio-demographic covariates.  Most importantly, we still find that individuals who con
+sume a wide variety of cultural forms are still statistically more likely to use a relational strategy when searching for work.  This effect is in fact strengthened rather than weakened in the second model in comparison to the baseline specification (}{
+\rtlch\fcs1 \af266 \ltrch\fcs0 \i\f266\insrsid4466187 \'e2}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 =0.030, }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 p}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+<0.05).   This is a somewhat striking finding, since it implies that cultural diversity is not only a better predictor of having used a socially embedded strategy than the usual socio-demographic markers to find a job in these data, but that it is onl
+y the }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 only}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187  useful predictor.
+\par }\pard\plain \ltrpar\s3\qj \li0\ri0\sb240\sa60\sl360\slmult1\keepn\widctlpar\wrapdefault\faauto\outlinelevel2\rin0\lin0\itap0 \rtlch\fcs1 \ab\af0\afs24\alang1025 \ltrch\fcs0 \b\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab0\af0 
+\ltrch\fcs0 \insrsid4466187 {\*\bkmkstart _Toc131839872}Activation of weak and strong ties{\*\bkmkend _Toc131839872}
+\par }\pard\plain \ltrpar\qj \li0\ri0\sa360\sl360\slmult1\widctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+Hypothesis 2 says that the effects of cultural capital should be stronger for the activation of weak ties during job search rather than strong ties:  the primary beneficial effect of cultural 
+variety is its ability to connect the individual to areas of social space that he or she would otherwise not be able to have access to.  I operationalize weak activation as the log-odds of having contacted an employer directly () and strong tie activation
+ 
+as the log-odds of having contacted friends and/or relatives for information about a job.  If hypothesis 2 is on the right track, we should find a stronger effect positive of cultural capital in connection to the first strategy in comparison to its effect
+s on the second strategy.  The logistic regression results shown in models 3 and 4 of   are consistent with this reasoning.  While the cultural variety index has a strong positive on the log-odds of having contacted the employer directly (}{\rtlch\fcs1 
+\af266 \ltrch\fcs0 \i\f266\insrsid4466187 \'e2}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 =0.046, }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 p}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 <0.01), 
+it has a statistically null effect (indistinguishable from zero) when it comes to strong tie activation.  
+\par To give a more intuitive understanding of the magnitude of these contrasting effects   shows the predicted probability (on the y-axis) of using these
+ two network strategies, plotted against the cultural variety score (on the x-axis).  The figure shows that respondents with a relatively low score in the cultural variety index have less than a 10% chance of activating a weak tie during job search.  The 
+odds for respondents with a high score on the cultural variety index more than double reaching upwards of 20% for the more cultural active respondents.  Cultural variety on the other hand, has a null effect on the probability of activating a strong tie.
+
+\par }\pard\plain \ltrpar\s3\qj \li0\ri0\sb240\sa60\sl360\slmult1\keepn\widctlpar\wrapdefault\faauto\outlinelevel2\rin0\lin0\itap0 \rtlch\fcs1 \ab\af0\afs24\alang1025 \ltrch\fcs0 \b\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab0\af0 
+\ltrch\fcs0 \insrsid4466187 Duration of Unemployment Spell
+\par }\pard\plain \ltrpar\qj \li0\ri0\sa360\sl360\slmult1\widctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+Hypothesis 3 predicts that because individuals who use socially embedded strategies and who have larger and more heterogeneous social networks learn about job opportunities and other advantageous information sooner, and because 
+individuals with diverse tastes are able to keep a larger, more heterogeneous and more active set of contacts at any point in time (Lizardo 2006), we should find that high-cultural capital individuals experience shorter spells of unemployment than individ
+uals who do not consume a wide variety of cultural offerings.  Model 5 in   puts this hypothesis to the test.}{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs20\lang0\langfe1033\super\langnp0\insrsid4466187 \chftn {\footnote \ltrpar \pard\plain \ltrpar
+\s35\qj \li0\ri0\sa360\widctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \lang0\langfe1033\super\langnp0\insrsid4466187 
+\chftn }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid4466187  I use a zero-truncated Poisson model () in order to account for the fact that the dependent variable is a count of the number of days reports he or she has 
+spent looking for a job, and since all respondents included in the analysis have been looking for a job for at least one day, there are no zero counts. The zero-truncated estimation routine implements a corrected likelihood function that allows for the es
+timation of unbiased and consistent estimates.}}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187   The results are consistent with the hypothesis, even after holding constant confounding factors, such as age, education, race gender and prestige
+ of previous jobs (all of which affect the duration of unemployment in the expected direction, with socio-demographic markers of privileged status decreasing the length of unemployment spell length and membership in disadvantaged groups increasing it), I 
+find as the diversity of the respondent\rquote 
+s cultural repertoire increases, the chances of them reporting having been looking for a job for a long time decreases.  This suggests that respondents with a narrow range of cultural tastes (univores) face disadvanta
+ges in the labor market even after the effect of education and prestige of previous job are held constant.
+\par }\pard\plain \ltrpar\s2\qj \li0\ri0\sb240\sa60\sl360\slmult1\keepn\widctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \ab\af0\afs28\alang1025 \ltrch\fcs0 \b\fs28\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab0\af0\afs24 \ltrch\fcs0 \insrsid4466187 {\*\bkmkstart _Toc131839873}Discussion and Conclusion{\*\bkmkend _Toc131839873}
+\par }\pard\plain \ltrpar\s3\qj \li0\ri0\sb240\sa60\sl360\slmult1\keepn\widctlpar\wrapdefault\faauto\outlinelevel2\rin0\lin0\itap0 \rtlch\fcs1 \ab\af0\afs24\alang1025 \ltrch\fcs0 \b\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab0\af0 
+\ltrch\fcs0 \insrsid4466187 Summary of the results
+\par }\pard\plain \ltrpar\qj \li0\ri0\sa360\sl360\slmult1\widctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+The above results provide striking support for the proposition that the primary value of cultural variety in contemporary American society appears to be }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 social}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+ (): the command of a wide variety of tastes and cultural codes allows the individual to sustain\emdash and diachronically replenish\emdash }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 a larger }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 and }{
+\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 a more varied}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187  personal network, or  \'93\'85the nucleus of relations\'85which is \lquote thicker\rquote  around some individuals, \lquote thinner\rquote 
+ around others\'94 (:  213).   High cultural capital individuals\emdash when this is defined by the variety of tastes and cultural practices that persons are able to command ()\emdash are more likely to rely on soci
+ally embedded strategies when looking for a job, and also appear to reap the benefits of doing so, by being less likely to experience long spells of unemployment, net of the other predictors.  \lquote 
+\par This analysis contributes to our understanding of the role of culture in processes of stratification by connecting cultural capital not only to the static }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 possession }{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\insrsid4466187 of social resources in the form of larger and more varied networks of cultural relations, but by providing empirical evidence of a link between cultural capital and the }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 
+agentic activation of those networks}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+.  This is important because it is through the activation of resources embedded in social relations that social capital is theorized as going from a potential to a real resource ().  These results are c
+onsistent with the general notion that cultural taste variety \'93counts\'94 as cultural capital in the contemporary societies precisely due to the intimate association of culture consumption with sociability, under conditions of \'93blurring\'94 and \'93
+deritualization\'94 of previously established boundaries across the arts ().}{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs20\lang0\langfe1033\super\langnp0\insrsid4466187 \chftn {\footnote \ltrpar \pard\plain \ltrpar
+\s35\qj \li0\ri0\sa360\widctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \lang0\langfe1033\super\langnp0\insrsid4466187 
+\chftn }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid4466187  Ironically this decline in the symbolic potency of the \'93fine art\'94 versus \'93popular culture\'94 boundary goes hand in hand with the increasing institutionalization of the \'93
+artworld\'94 schema as symbolic goods that were previously considered \'93commercial art\'94 come to acquire all of the institutional trappings of \'93fine art\'94 ().  }}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187   
+\par }\pard\plain \ltrpar\s3\qj \li0\ri0\sb240\sa60\sl360\slmult1\keepn\widctlpar\wrapdefault\faauto\outlinelevel2\rin0\lin0\itap0 \rtlch\fcs1 \ab\af0\afs24\alang1025 \ltrch\fcs0 \b\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab0\af0 
+\ltrch\fcs0 \insrsid4466187 Reconsidering our conceptualizations of cultural capital
+\par }\pard\plain \ltrpar\qj \li0\ri0\sa360\sl360\slmult1\widctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+The above results lead us to a reconsideration of established notions of \'93cultural capital.\'94 There are two primary definitions of cultural capital that inform contemporary theory and research.  One, partially based on Bourdieu\rquote 
+s (1986) influential formulation, defines cultural capital as an }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 aptitude}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187  or a }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 skill}{\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid4466187  acquired in the combined realms of the upper-middle class family and the school system.  For instance, DiMaggio (1991:  134) conceives of cultural capital as \'93
+proficiency in the consumption of and discourse about generally prestigious\emdash that is institutionally screened and validated\emdash  cultural goods\'85\'94 Following Bourdieu\rquote s () rejection of Veblenian theories of consciously guided \'93
+distinction,\'94 from this point of view whatever benefits accrue to the individual as a consequence of possessing cultural capital appear as an unintended consequence produced by cross-institutional linkages in societ
+y-wide cultural definitions of value and worth (i.e. between artistic institutions, higher education and high status professions for instance).  It follows that with institutional conceptions of what constitute aesthetic value, certain forms of cultural c
+apital may lose \'93value\'94 and be replaced by others (). 
+\par The other major conceptualization of cultural capital in current theory and research on the subject is concerned with addressing what are perceived to be ambiguities in the Bourdieu-inspired definition of cultural capital as \'93skill\'94 or \'93
+proficiency.\'94  Instead from the }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 boundaries}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187  point of view (Lamont and Lareau 1988:  164) cultural capital is defined as \'93\'85
+the institutionalized repertoire of high status signals\'94 useful for purposes of marking and drawing 
+symbolic boundaries in a given social context.   This definition of social capital attempts to recover what are perceived to be its origin in a Weberian theory of status group }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 closure}{\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid4466187 .  Furthermore, from this perspective whatever counts as cultural capital
+ are those symbolic resources that are actively mobilized by members of groups or class fractions to establish their difference from other groups and thus to devalue the cultural resources and symbolic practices of outsiders ().  
+\par The findings reported abo
+ve point to the need to amend both of these very influential notions of cultural capital.  In contrast to the theoretical emphases of the boundaries definition these results as well as the previous lines of research from which the present study departs, l
+e
+ad to the conclusion that whatever counts as cultural capital in the modern system no longer derives its usefulness in creating personal advantage by following a closure logic.  This logic might have made sense under when the social conditions in which th
+e classic Warnerian studies of the \'93power structure\'94 American communities were prevalent across Western societies ().  However, with the increasing social and cultural mobility of the upper-middle class () it is unlikely that the }{\rtlch\fcs1 \af0 
+\ltrch\fcs0 \i\insrsid4466187 exclusive}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187  use of symbolic goods consumption purely to produce \'93fences\'94
+ across groups generates much advantage (although the occasional production of relational closure as high status individuals code-switch in more intimate settings may still do); instead under conditions in which \'93personal communities\'94
+ are increasingly disengaged from locality and tradition (), the ability to mobilize cultural knowledge to generate \'93bridges\'94 in the social structure becomes as important () as the capacity to mobilize cultural resources to generate cl
+osure.  This is consistent with the longstanding observation connnecting socio-economic status and the ability to reach across wider distances in social space ().   
+\par In essence I propose that we go back to Bourdieu\rquote s (1986) initial proposal and define cultural capital in a manner that makes it interdependent with the other forms of capital, in this case social capital.   In Bourdieu\rquote 
+s original formulation, none of the forms of capital\emdash economic, cultural and social\emdash constituted capital \'93as such\'94 but were to only be considered capital as long as they were able to be \'93converted\'94
+ into other forms.  In this respect, DiMaggio\rquote s definition is the most consistent with the conceptualization of the role of cultural capital in social interaction, because it highlights not only the notion of cultural capital as \'93proficiency\'94
+ in consumption, but also points to its inherent connection to \'93discourse\'94, that is }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid4466187 talk}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+.  It is clear that in the most recent literature on cultural taste, cultural proficiencies become actualized (an
+d in as the present analysis suggests, transformed into social connections) by being deployed and activated in conversation ().  Thus, an important advantage of the proficiency definition is that it points to an explicit and empirically verifiable mechani
+sm through which cultural capital becomes manifested and utilized by individuals during routine episodes of social interaction.  
+\par Nevertheless, while the results reported in this paper point toward a critique of the \'93boundaries\'94 conception of cultural capital and a partial endorsement of DiMaggio\rquote s \'93proficiency\'94
+ conceptualization, they also point to certain problems with the latter formulation.  First, DiMaggio\rquote s definition is too narrow, since it restricts cultural capital to those forms of cultural knowledge that are \'93validated\'94
+ by established institutions.  However, if we note that it is precisely those forms of cultural aptitude that have the weakest correlation with class that are the most useful in establishing connections across distant social position
+s (), then familiarity with this sort of \'93non-legitimated\'94 culture must be part of any conceptualization of cultural capital in the current context.  Furthermore, DiMaggio\rquote s proficiency definition is not quite consistent with Bourdieu\rquote 
+s original theoretical intentions, in that it makes no mention of the fact that the status of a particular set of cultural aptitudes as \'93capital\'94 has to be connected to either their capacity to be transformed material or social resources.  
+\par Following this line of reasoning, I propose that one of the key implications of the above results showing the connection between cultural capital and the activation of social ties is that we revise DiMaggio\rquote 
+s proficiency definition to include aptitude for and familiarity with non-validated symbolic goods, along with the networking value of those cultural aptitudes.  From this perspective, cultural capital can be defined as:  \'93}{\rtlch\fcs1 \af0 
+\ltrch\fcs0 \i\insrsid4466187 Proficiency in the consumption of and discourse about both widely disseminated and institutionally validated cultural 
+goods that can be exploited in interaction to sustain pre-existing social connections and form new ones when necessary}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 .\'94
+  I think this definition provides a more apt conceptualization of cultural capital that keys in on what are is its most functional role in the modern system, and which can inform subsequent research on the topic.
+\par }\pard\plain \ltrpar\s2\qj \li0\ri0\sb240\sa60\sl360\slmult1\keepn\widctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \ab\af0\afs28\alang1025 \ltrch\fcs0 \b\fs28\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab0\af0\afs24 \ltrch\fcs0 \insrsid4466187 \page References
+\par }\pard\plain \ltrpar\ql \fi-1440\li1440\ri0\sl360\slmult1\nowidctlpar\wrapdefault\faauto\rin0\lin1440\itap0\pararsid4466187 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\insrsid4466187\charrsid4466187 Baumann, Shyon. 2007. Hollywood Highbrow: From Entertainment to Art. Princeton: Princeton University Press.
+\par Bennett, Tony, Michael Emmison, and John Frow. 1999. Accounting for Tastes:  Australian Everyday Cultures. Cambridge: Cambridge University Press.
+\par Bidart, Claire and Alain Degenne. 2005. "Introduction: the dynamics of personal networks." Social Networks 27:283-287.
+\par Bidart, Claire and Daniel Lavenu. 2005. "Evolutions of personal networks and life events." Social Networks 27:359-376.
+\par Blau, David M. and Philip K. Robins. 1990. "Job Search Outcomes for the Employed and Unemployed." Journal of Political Economy 98:637-655.
+\par Bourdieu, Pierre. 1984. Distinction: a Social Critique of the Judgment of Taste. Translated by R. Nice. Cambridge: Harvard University Press.
+\par ______. 1986. "The Forms of Capital." Pp. 241-258 in Handbook of Theory and Research for the Sociology of Education, edited by J. Richardson. New York: Greenwood Press.
+\par Bryson, Bethany. 1996. "Anything But Heavy Metal\rquote : Symbolic Exclusion and Musical Dislikes." American Sociological Review 61:884-900.
+\par Burt, Ronald S. 1982. Toward A Structural Theory Of Action. New York: Academic Press.
+\par ______. 1983. "Range." Pp. 176-194 in Applied Network Analysis, edited by R. S. Burt and M. J. Minor. Beverly Hills: Sage.
+\par ______. 1992. Structural Holes: The Social Structure of Competition. Cambridge: Harvard University Press.
+\par ______. 2000. "Decay Functions." Social Networks 22:1-28.
+\par ______. 2002. "Bridge Decay." Social Networks 24: 333-363.
+\par Cardon, Dominique and Fabien Granjon. 2005. "Social networks and cultural practices A case study of young avid screen users in France." Social Networks:301-315.
+\par Carley, Kathleen M. 1991. "A Theory of Group Stability." American Sociological Review 56:331-354.
+\par ______. 1995. "Communication Technologies and Their Effect on Cultural Homogeneity, Consensus, and the Diffusion of New Ideas." Sociological Perspectives 38: 547-571.
+\par Coleman, James S. 1988. "Social Capital in the Creation of Human Capital." American Journal of Sociology 94:95-120.
+\par Crane, Diana. 1993. "High Culture versus Popular Culture Revisited:  Toward a Reconceptualization of Recorded Cultures." Pp. 58-74 in Cultivating Differences:  Symbo
+lic Boundaries and the Making of Inequality, edited by M. Lamont and M. Fournier. Chicago: Chicago University Press.
+\par DiMaggio, Paul. 1987. "Classification in Art." American Sociological Review 52:440-455.
+\par ______. 1991. "Social Structure Institutions and Cultural Goods: The Case of the United States." Pp. 133-155 in Social Theory for a Changing Society, edited by P. Bourdieu and J. Coleman. Boulder Colorado: Westview Press.
+\par DiMaggio, Paul and John Mohr. 1985. "Cultural Capital, Educational Attainment, and Marital Selection." American Journal of Sociology 90:1231-1261.
+\par Dimaggio, Paul and Michael Useem. 1978. "Social Class and Arts Consumption: The Origins and Consequences of Class Differences in Exposure to the Arts in America." Theory and Society 5:141-161.
+\par Douglas, Mary and Baron Isherwood. 1996. The World of Goods: Towards an Anthropology of Consumption. New York: Routledge.
+\par Erickson, Bonnie H. 1996. "Culture, Class, and Connections." American Journal of Sociology 102:217-252.
+\par ______. 2008. "The Crisis in Culture and Inequality." Pp. 343-362 in Engaging Arts:  The Next Great Transformation of America's Cultural Life, edited by S. J. Tepper and B. Ivey. New York: Routledge.
+\par Fine, Gary Alan. 1979. "Small Groups and Culture Creation: The Idioculture of Little League Baseball Teams." American Sociological Review 44: 733-745.
+\par Fischer, Claude S. 1982. To Dwell among Friends: Personal Networks in Town and City. Chicago: University of Chicago Press.
+\par Freeman, Linton C. 1977. "A Set of Measures of Centrality Based on BetweennessA Set of Measures of Centrality Based on Betweenness." Sociometry 40:35-41.
+\par Frith, Simon. 1998. Performing Rites: On the Value of Popular Music. Cambridge: Harvard University Press.
+\par Goldstein, Joshua R. and John Robert Warren. 2000. "Socioeconomic Reach and Heterogeneity in the Extended Family: Contours and Consequences." Social Science Research 29:382-404.
+\par Granovetter, Mark. 2002. " theoretical agenda for economic sociology." Pp. 35-60 in The new economic sociology: Developments in an emerging field, edited by M. F. Guill\'e9n, R. Collins, P. England, and M. Meyer. New York: Russell Sage.
+\par Granovetter, Mark S. 1973. "The Strength of Weak Ties." American Journal of Sociology 78:1360-1380.
+\par Granovetter, Mark S. 1995. Getting a Job:  A Study of Contacts and Careers. Chicago: University of Chicago Press.
+\par Griswold, Wendy and Nathan Wright. 2004. "Cowbirds, Locals, and the Dynamic Endurance of Regionalism." American Journal of Sociology 109:1411\endash 1451.
+\par Grogger, J. T. and R. T. Carson. 1991. "Models for Truncated Counts." Journal of Applied Econometrics 6:225-238.
+\par Holt, Douglas B. 1998. "Does Cultural Capital Structure American Consumption?" Journal of Consumer Research 25:1-25.
+\par Holzer, Harry J. 1988. "Search Method Use by Unemployed Youth." Journal of Labor Economics 6:1-20.
+\par Homans, George C. 1950. The Human Group. New York: Harcourt Brace.
+\par Lamont, Michele. 1992. Money, Morals, and Manners. Chicago: University of Chicago Press.
+\par Lazarsfeld, Paul F. and Robert K. Merton. 1954. "Friendship as a social process:  A substantive and methodological analysis." Pp. 18-66 in Freedom and Control in Modern Society, edited by M. Berger, T. Abel, and C. Page. New York: Van Nostrand.
+\par Lin, Nan. 1990. "Social Resources and Social Mobility: A Structural Theory of Status Attainment." Pp. 247-271 in Social Mobility and Social Structure, edited by R. Breiger. Cambridge: Cambridge University Press.
+\par ______. 1999. "Social Networks and Status Attainment." Annual Review of Sociology 25:467-487.
+\par ______. 2000. "Inequality in Social Capital." Contemporary Sociology 29:785-795.
+\par ______. 2001a. "Building a Network Theory of Social Capital." Pp. 3-30 in Social Capital: Theory and Research., edited by N. Lin and K. S. Cook. New York, Hawthorne: Aldine de Gruyter.
+\par ______. 2001b. Social Capital: A Theory of Social Structure and Action. Cambridge: Cambridge University Press.
+\par Lin, Nan  and Mary Dumin. 1986. "Access to Occupations through Social Ties." Social Networks 8:365\endash 385.
+\par Lin, Nan, Walter M. Ensel, and John C Vaughn. 1981. "Social Resources and Strength of Ties: Structural Factors in Occupational Status Attainment." American Sociological Review 46:393-405.
+\par Lin, Nan, John C.  Vaughn, and Walter M. Ensel. 1981. "Social Resources and Occupational Status Attainment." Social Forces 59:1163-1181.
+\par Lizardo, Omar. 2006. "How Cultural Tastes Shape Personal Networks." American Sociological Review 71:778-807.
+\par Long, Elizabeth. 2003. Book Clubs: Women and the Uses of Reading in Everyday Life. Chicago: University of Chicago Press.
+\par Lopes, Paul Douglas. 2002. The Rise of a Jazz Art World. Cambridge: Cambridge  University Press.
+\par Mark, Noah P. 1998a. "Beyond Individual Differences: Social Differentiation from First Principles." American Sociological Review 63:309-330.
+\par ______. 1998b. "Birds of a Feather Sing Together." Social Forces 77:453-485.
+\par ______. 2003. "Culture and Competition: Homophily and Distancing Explanations for Cultural Niches." American Sociological Review 68:319-345.
+\par Marsden, Peter V. 1987. "Core Discussion Networks of Americans." American Sociological Review 52:122-131.
+\par Moreno, J. L. 1937. "Sociometry in Relation to Other Social Sciences." Sociometry 1:206-219.
+\par Mouw, Ted. 2003. "Social Capital and Finding a Job: Do Contacts Matter?" American Sociological Review 68:868-898.
+\par Ollivier, Michele. 2004. "Towards A Structural Theory Of Status Inequality: Structures And Rents In Popular Music And Tastes." Research In Social Stratification And Mobility 21:187-213.
+\par Peterson, Richard A. 1992. "Understanding Audience Segmentation: From Elite and Popular to Omnivore and Univore." Poetics 21:243-258.
+\par ______. 1997. "The Rise and Fall of Highbrow Snobbery as a Status Marker." Poetics 25:75-92.
+\par ______. 2005. "Problems in Comparative Research: The Example of Omnivorousness." Poetics 33:257-282.
+\par Peterson, Richard A.  and Roger M. Kern. 1996. "Changing Highbrow Taste:  From Snob to Omnivore." American Sociological Review 61:900-907.
+\par Portes, Alejandro. 1998. "Social Capital: Its Origins and Applications in Modern Sociology." Annual Review of Sociology 24:1-24.
+\par Regev, Motti. 1994. "Producing Artistic Value:  The Case of Rock Music." Sociological Quarterly 35:85-102.
+\par Suitor, J. Jill, Barry Wellman, and David L. Morgan. 1997. "It's about time: How, why, and when networks change." Social Networks 19:1-7.
+\par Suitor, Jill and Shirley Keeton. 1997. "Once a friend, always a friend? Effects of homophily on women's support networks across a decade." Social Networks 19:51-62.
+\par van Eijck, Koen. 2001. "Social Differentiation in Musical Taste Patterns." Social Forces 79:1163-1185.
+\par Wellman, Barry. 1979. "The Community Question: The Intimate Networks of East Yorkers." American Journal of Sociology 84:1201-1231.
+\par Wellman, Barry, Peter J. Carrington, and Alan Hall. 1988. "Networks as personal communities." Pp. 130-184 in Social Structures: a Network Approach, edited by B. Wellman and S. D. Berkowitz. Cambridge: Cambridge University Press.
+\par Wellman, Barry and Scot Wortley. 1990. "Different Strokes from Different Folks: Community Ties and Social Support." American Journal of Sociology 96:558-588.
+\par Yakubovich, Valery. 2005. "Weak ties, information, and influence: How workers find jobs in a local russian labor market." American Sociological Review 70:408-421.
+\par }\pard \ltrpar\qj \li0\ri0\sa360\sl360\slmult1\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4466187 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187\charrsid4466187 
+\par }\pard \ltrpar\qj \li0\ri0\sa360\sl360\slmult1\widctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par {\*\bkmkstart _Ref131147454}{\*\bkmkstart _Toc131839770}{\*\bkmkstart _Ref131147463}
+\par 
+\par \sect }\sectd \ltrsect\margbsxn3050\sbknone\linex0\colsx360\sectdefaultcl\sftnbj \ltrrow\trowd \irow0\irowband0\ltrrow
+\ts11\trgaph10\trleft-107\trftsWidth3\trwWidth13196\trftsWidthB3\trftsWidthA3\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3\tblrsid4466187\tblind-97\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 
+\clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth3934\clcbpatraw8 \cellx3827\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 
+\clcbpat8\cltxlrtb\clftsWidth3\clwWidth1528\clcbpatraw8 \cellx5355\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1370\clcbpatraw8 
+\cellx6725\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth2113\clcbpatraw8 \cellx8838\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl
+\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1289\clcbpatraw8 \cellx10127\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 
+\clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1636\clcbpatraw8 \cellx11763\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 
+\clcbpat8\cltxlrtb\clftsWidth3\clwWidth1326\clcbpatraw8 \cellx13089\pard\plain \ltrpar\s40\qj \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0\pararsid4466187 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \dbch\af31505\insrsid4466187\charrsid4466187 \page {\*\bkmkend _Ref131147454}{\*\bkmkend _Toc131839770}{\*\bkmkend _Ref131147463}\cell \hich\af0\dbch\af31505\loch\f0 
+Relatives\cell \hich\af0\dbch\af31505\loch\f0 Close Friend\cell \hich\af0\dbch\af31505\loch\f0 Acquai\hich\af0\dbch\af31505\loch\f0 ntance\cell \hich\af0\dbch\af31505\loch\f0 Service\cell \hich\af0\dbch\af31505\loch\f0 Directly Contacted\cell 
+\hich\af0\dbch\af31505\loch\f0 Direct Contact\cell }\pard\plain \ltrpar\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \dbch\af31505\insrsid4466187\charrsid4466187 \trowd \irow0\irowband0\ltrrow
+\ts11\trgaph10\trleft-107\trftsWidth3\trwWidth13196\trftsWidthB3\trftsWidthA3\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3\tblrsid4466187\tblind-97\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 
+\clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth3934\clcbpatraw8 \cellx3827\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 
+\clcbpat8\cltxlrtb\clftsWidth3\clwWidth1528\clcbpatraw8 \cellx5355\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1370\clcbpatraw8 
+\cellx6725\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth2113\clcbpatraw8 \cellx8838\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl
+\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1289\clcbpatraw8 \cellx10127\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 
+\clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1636\clcbpatraw8 \cellx11763\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 
+\clcbpat8\cltxlrtb\clftsWidth3\clwWidth1326\clcbpatraw8 \cellx13089\row \ltrrow}\pard\plain \ltrpar\s40\qj \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0\pararsid4466187 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \dbch\af31505\insrsid4466187\charrsid4466187 \hich\af0\dbch\af31505\loch\f0 Cultural Variety Scale\cell \hich\af0\dbch\af31505\loch\f0 0.120\cell 
+\hich\af0\dbch\af31505\loch\f0 0.0353\cell \hich\af0\dbch\af31505\loch\f0 0.169*\cell \hich\af0\dbch\af31505\loch\f0 0.0405\cell \hich\af0\dbch\af31505\loch\f0 0.229*\cell \hich\af0\dbch\af31505\loch\f0 -0.0777\cell }\pard\plain \ltrpar
+\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\dbch\af31505\insrsid4466187\charrsid4466187 \trowd \irow1\irowband1\ltrrow\ts11\trgaph10\trleft-107\trftsWidth3\trwWidth13196\trftsWidthB3\trftsWidthA3\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3\tblrsid4466187\tblind-97\tblindtype3 \clvertalt\clbrdrt
+\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth3934\clcbpatraw8 \cellx3827\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 
+\clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1528\clcbpatraw8 \cellx5355\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr
+\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1370\clcbpatraw8 \cellx6725\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 
+\clcbpat8\cltxlrtb\clftsWidth3\clwWidth2113\clcbpatraw8 \cellx8838\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1289\clcbpatraw8 
+\cellx10127\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1636\clcbpatraw8 \cellx11763\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 
+\clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1326\clcbpatraw8 \cellx13089\row \ltrrow}\pard\plain \ltrpar
+\s40\qj \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0\pararsid4466187 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\dbch\af31505\insrsid4466187\charrsid4466187 \cell \hich\af0\dbch\af31505\loch\f0 (1.28)\cell \hich\af0\dbch\af31505\loch\f0 (0.44)\cell \hich\af0\dbch\af31505\loch\f0 (2.01)\cell \hich\af0\dbch\af31505\loch\f0 (0.44)\cell \hich\af0\dbch\af31505\loch\f0 
+(2.51)\cell \hich\af0\dbch\af31505\loch\f0 (-0.90)\cell }\pard\plain \ltrpar\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \dbch\af31505\insrsid4466187\charrsid4466187 \trowd \irow2\irowband2\ltrrow
+\ts11\trgaph10\trleft-107\trftsWidth3\trwWidth13196\trftsWidthB3\trftsWidthA3\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3\tblrsid4466187\tblind-97\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 
+\clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth3934\clcbpatraw8 \cellx3827\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 
+\clcbpat8\cltxlrtb\clftsWidth3\clwWidth1528\clcbpatraw8 \cellx5355\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1370\clcbpatraw8 
+\cellx6725\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth2113\clcbpatraw8 \cellx8838\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl
+\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1289\clcbpatraw8 \cellx10127\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 
+\clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1636\clcbpatraw8 \cellx11763\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 
+\clcbpat8\cltxlrtb\clftsWidth3\clwWidth1326\clcbpatraw8 \cellx13089\row \ltrrow}\pard\plain \ltrpar\s40\qj \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0\pararsid4466187 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \dbch\af31505\insrsid4466187\charrsid4466187 \hich\af0\dbch\af31505\loch\f0 Education\cell \hich\af0\dbch\af31505\loch\f0 -0.0338\cell \hich\af0\dbch\af31505\loch\f0 
+-0.00146\cell \hich\af0\dbch\af31505\loch\f0 0.00833\cell \hich\af0\dbch\af31505\loch\f0 0.0682\cell \hich\af0\dbch\af31505\loch\f0 0.0775\cell \hich\af0\dbch\af31505\loch\f0 0.0870\cell }\pard\plain \ltrpar
+\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\dbch\af31505\insrsid4466187\charrsid4466187 \trowd \irow3\irowband3\ltrrow\ts11\trgaph10\trleft-107\trftsWidth3\trwWidth13196\trftsWidthB3\trftsWidthA3\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3\tblrsid4466187\tblind-97\tblindtype3 \clvertalt\clbrdrt
+\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth3934\clcbpatraw8 \cellx3827\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 
+\clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1528\clcbpatraw8 \cellx5355\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr
+\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1370\clcbpatraw8 \cellx6725\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 
+\clcbpat8\cltxlrtb\clftsWidth3\clwWidth2113\clcbpatraw8 \cellx8838\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1289\clcbpatraw8 
+\cellx10127\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1636\clcbpatraw8 \cellx11763\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 
+\clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1326\clcbpatraw8 \cellx13089\row \ltrrow}\pard\plain \ltrpar
+\s40\qj \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0\pararsid4466187 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\dbch\af31505\insrsid4466187\charrsid4466187 \cell \hich\af0\dbch\af31505\loch\f0 (-0.52)\cell \hich\af0\dbch\af31505\loch\f0 (-0.03)\cell \hich\af0\dbch\af31505\loch\f0 (0.14)\cell \hich\af0\dbch\af31505\loch\f0 (1.04)\cell 
+\hich\af0\dbch\af31505\loch\f0 (1.18)\cell \hich\af0\dbch\af31505\loch\f0 (1.45)\cell }\pard\plain \ltrpar\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \dbch\af31505\insrsid4466187\charrsid4466187 \trowd \irow4\irowband4\ltrrow
+\ts11\trgaph10\trleft-107\trftsWidth3\trwWidth13196\trftsWidthB3\trftsWidthA3\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3\tblrsid4466187\tblind-97\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 
+\clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth3934\clcbpatraw8 \cellx3827\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 
+\clcbpat8\cltxlrtb\clftsWidth3\clwWidth1528\clcbpatraw8 \cellx5355\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1370\clcbpatraw8 
+\cellx6725\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth2113\clcbpatraw8 \cellx8838\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl
+\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1289\clcbpatraw8 \cellx10127\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 
+\clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1636\clcbpatraw8 \cellx11763\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 
+\clcbpat8\cltxlrtb\clftsWidth3\clwWidth1326\clcbpatraw8 \cellx13089\row \ltrrow}\pard\plain \ltrpar\s40\qj \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0\pararsid4466187 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \dbch\af31505\insrsid4466187\charrsid4466187 \hich\af0\dbch\af31505\loch\f0 Age\cell \hich\af0\dbch\af31505\loch\f0 -0.0341*\cell \hich\af0\dbch\af31505\loch\f0 -0.00693
+\cell \hich\af0\dbch\af31505\loch\f0 -0.00393\cell \hich\af0\dbch\af31505\loch\f0 -0.0125\cell \hich\af0\dbch\af31505\loch\f0 0.0313*\cell \hich\af0\dbch\af31505\loch\f0 0.0130\cell }\pard\plain \ltrpar
+\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\dbch\af31505\insrsid4466187\charrsid4466187 \trowd \irow5\irowband5\ltrrow\ts11\trgaph10\trleft-107\trftsWidth3\trwWidth13196\trftsWidthB3\trftsWidthA3\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3\tblrsid4466187\tblind-97\tblindtype3 \clvertalt\clbrdrt
+\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth3934\clcbpatraw8 \cellx3827\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 
+\clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1528\clcbpatraw8 \cellx5355\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr
+\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1370\clcbpatraw8 \cellx6725\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 
+\clcbpat8\cltxlrtb\clftsWidth3\clwWidth2113\clcbpatraw8 \cellx8838\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1289\clcbpatraw8 
+\cellx10127\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1636\clcbpatraw8 \cellx11763\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 
+\clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1326\clcbpatraw8 \cellx13089\row \ltrrow}\pard\plain \ltrpar
+\s40\qj \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0\pararsid4466187 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\dbch\af31505\insrsid4466187\charrsid4466187 \cell \hich\af0\dbch\af31505\loch\f0 (-2.80)\cell \hich\af0\dbch\af31505\loch\f0 (-0.71)\cell \hich\af0\dbch\af31505\loch\f0 (-0.38)\cell \hich\af0\dbch\af31505\loch\f0 (-1.08)\cell 
+\hich\af0\dbch\af31505\loch\f0 (2.80)\cell \hich\af0\dbch\af31505\loch\f0 (1.29)\cell }\pard\plain \ltrpar\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \dbch\af31505\insrsid4466187\charrsid4466187 \trowd \irow6\irowband6\ltrrow
+\ts11\trgaph10\trleft-107\trftsWidth3\trwWidth13196\trftsWidthB3\trftsWidthA3\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3\tblrsid4466187\tblind-97\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 
+\clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth3934\clcbpatraw8 \cellx3827\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 
+\clcbpat8\cltxlrtb\clftsWidth3\clwWidth1528\clcbpatraw8 \cellx5355\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1370\clcbpatraw8 
+\cellx6725\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth2113\clcbpatraw8 \cellx8838\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl
+\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1289\clcbpatraw8 \cellx10127\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 
+\clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1636\clcbpatraw8 \cellx11763\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 
+\clcbpat8\cltxlrtb\clftsWidth3\clwWidth1326\clcbpatraw8 \cellx13089\row \ltrrow}\pard\plain \ltrpar\s40\qj \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0\pararsid4466187 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \dbch\af31505\insrsid4466187\charrsid4466187 \hich\af0\dbch\af31505\loch\f0 Gender (Women=1)\cell \hich\af0\dbch\af31505\loch\f0 -0.269\cell 
+\hich\af0\dbch\af31505\loch\f0 -0.297\cell \hich\af0\dbch\af31505\loch\f0 -0.0415\cell \hich\af0\dbch\af31505\loch\f0 -0.165\cell \hich\af0\dbch\af31505\loch\f0 0.133\cell \hich\af0\dbch\af31505\loch\f0 0.0367\cell }\pard\plain \ltrpar
+\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\dbch\af31505\insrsid4466187\charrsid4466187 \trowd \irow7\irowband7\ltrrow\ts11\trgaph10\trleft-107\trftsWidth3\trwWidth13196\trftsWidthB3\trftsWidthA3\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3\tblrsid4466187\tblind-97\tblindtype3 \clvertalt\clbrdrt
+\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth3934\clcbpatraw8 \cellx3827\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 
+\clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1528\clcbpatraw8 \cellx5355\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr
+\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1370\clcbpatraw8 \cellx6725\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 
+\clcbpat8\cltxlrtb\clftsWidth3\clwWidth2113\clcbpatraw8 \cellx8838\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1289\clcbpatraw8 
+\cellx10127\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1636\clcbpatraw8 \cellx11763\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 
+\clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1326\clcbpatraw8 \cellx13089\row \ltrrow}\pard\plain \ltrpar
+\s40\qj \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0\pararsid4466187 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\dbch\af31505\insrsid4466187\charrsid4466187 \cell \hich\af0\dbch\af31505\loch\f0 (-0.91)\cell \hich\af0\dbch\af31505\loch\f0 (-1.19)\cell \hich\af0\dbch\af31505\loch\f0 (-0.16)\cell \hich\af0\dbch\af31505\loch\f0 (-0.58)\cell 
+\hich\af0\dbch\af31505\loch\f0 (0.46)\cell \hich\af0\dbch\af31505\loch\f0 (0.14)\cell }\pard\plain \ltrpar\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \dbch\af31505\insrsid4466187\charrsid4466187 \trowd \irow8\irowband8\ltrrow
+\ts11\trgaph10\trleft-107\trftsWidth3\trwWidth13196\trftsWidthB3\trftsWidthA3\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3\tblrsid4466187\tblind-97\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 
+\clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth3934\clcbpatraw8 \cellx3827\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 
+\clcbpat8\cltxlrtb\clftsWidth3\clwWidth1528\clcbpatraw8 \cellx5355\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1370\clcbpatraw8 
+\cellx6725\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth2113\clcbpatraw8 \cellx8838\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl
+\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1289\clcbpatraw8 \cellx10127\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 
+\clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1636\clcbpatraw8 \cellx11763\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 
+\clcbpat8\cltxlrtb\clftsWidth3\clwWidth1326\clcbpatraw8 \cellx13089\row \ltrrow}\pard\plain \ltrpar\s40\qj \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0\pararsid4466187 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \dbch\af31505\insrsid4466187\charrsid4466187 \hich\af0\dbch\af31505\loch\f0 Race (Black=1)\cell \hich\af0\dbch\af31505\loch\f0 -0.560\cell 
+\hich\af0\dbch\af31505\loch\f0 0.478\cell \hich\af0\dbch\af31505\loch\f0 0.0203\cell 0.\hich\af0\dbch\af31505\loch\f0 415\cell \hich\af0\dbch\af31505\loch\f0 0.376\cell \hich\af0\dbch\af31505\loch\f0 -0.0234\cell }\pard\plain \ltrpar
+\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\dbch\af31505\insrsid4466187\charrsid4466187 \trowd \irow9\irowband9\ltrrow\ts11\trgaph10\trleft-107\trftsWidth3\trwWidth13196\trftsWidthB3\trftsWidthA3\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3\tblrsid4466187\tblind-97\tblindtype3 \clvertalt\clbrdrt
+\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth3934\clcbpatraw8 \cellx3827\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 
+\clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1528\clcbpatraw8 \cellx5355\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr
+\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1370\clcbpatraw8 \cellx6725\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 
+\clcbpat8\cltxlrtb\clftsWidth3\clwWidth2113\clcbpatraw8 \cellx8838\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1289\clcbpatraw8 
+\cellx10127\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1636\clcbpatraw8 \cellx11763\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 
+\clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1326\clcbpatraw8 \cellx13089\row \ltrrow}\pard\plain \ltrpar
+\s40\qj \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0\pararsid4466187 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\dbch\af31505\insrsid4466187\charrsid4466187 \cell \hich\af0\dbch\af31505\loch\f0 (-1.24)\cell \hich\af0\dbch\af31505\loch\f0 (1.41)\cell \hich\af0\dbch\af31505\loch\f0 (0.05)\cell \hich\af0\dbch\af31505\loch\f0 (1.05)\cell \hich\af0\dbch\af31505\loch\f0 
+(0.89)\cell \hich\af0\dbch\af31505\loch\f0 (-0.06)\cell }\pard\plain \ltrpar\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \dbch\af31505\insrsid4466187\charrsid4466187 \trowd \irow10\irowband10\ltrrow
+\ts11\trgaph10\trleft-107\trftsWidth3\trwWidth13196\trftsWidthB3\trftsWidthA3\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3\tblrsid4466187\tblind-97\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 
+\clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth3934\clcbpatraw8 \cellx3827\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 
+\clcbpat8\cltxlrtb\clftsWidth3\clwWidth1528\clcbpatraw8 \cellx5355\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1370\clcbpatraw8 
+\cellx6725\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth2113\clcbpatraw8 \cellx8838\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl
+\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1289\clcbpatraw8 \cellx10127\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 
+\clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1636\clcbpatraw8 \cellx11763\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 
+\clcbpat8\cltxlrtb\clftsWidth3\clwWidth1326\clcbpatraw8 \cellx13089\row \ltrrow}\pard\plain \ltrpar\s40\qj \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0\pararsid4466187 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \dbch\af31505\insrsid4466187\charrsid4466187 \hich\af0\dbch\af31505\loch\f0 Occ. Prestige\cell \hich\af0\dbch\af31505\loch\f0 -0.0443*\cell 
+\hich\af0\dbch\af31505\loch\f0 -0.0275*\cell \hich\af0\dbch\af31505\loch\f0 -0.0188\cell \hich\af0\dbch\af31505\loch\f0 0.0143\cell \hich\af0\dbch\af31505\loch\f0 -0.0209\cell \hich\af0\dbch\af31505\loch\f0 -0.0129\cell }\pard\plain \ltrpar
+\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\dbch\af31505\insrsid4466187\charrsid4466187 \trowd \irow11\irowband11\ltrrow\ts11\trgaph10\trleft-107\trftsWidth3\trwWidth13196\trftsWidthB3\trftsWidthA3\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3\tblrsid4466187\tblind-97\tblindtype3 \clvertalt\clbrdrt
+\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth3934\clcbpatraw8 \cellx3827\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 
+\clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1528\clcbpatraw8 \cellx5355\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr
+\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1370\clcbpatraw8 \cellx6725\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 
+\clcbpat8\cltxlrtb\clftsWidth3\clwWidth2113\clcbpatraw8 \cellx8838\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1289\clcbpatraw8 
+\cellx10127\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1636\clcbpatraw8 \cellx11763\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 
+\clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1326\clcbpatraw8 \cellx13089\row \ltrrow}\pard\plain \ltrpar
+\s40\qj \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0\pararsid4466187 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\dbch\af31505\insrsid4466187\charrsid4466187 \cell \hich\af0\dbch\af31505\loch\f0 (-3.37)\cell \hich\af0\dbch\af31505\loch\f0 (-2.56)\cell \hich\af0\dbch\af31505\loch\f0 (-1.64)\cell \hich\af0\dbch\af31505\loch\f0 (1.16)\cell 
+\hich\af0\dbch\af31505\loch\f0 (-1.66)\cell \hich\af0\dbch\af31505\loch\f0 (-1.13)\cell }\pard\plain \ltrpar\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \dbch\af31505\insrsid4466187\charrsid4466187 \trowd \irow12\irowband12\ltrrow
+\ts11\trgaph10\trleft-107\trftsWidth3\trwWidth13196\trftsWidthB3\trftsWidthA3\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3\tblrsid4466187\tblind-97\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 
+\clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth3934\clcbpatraw8 \cellx3827\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 
+\clcbpat8\cltxlrtb\clftsWidth3\clwWidth1528\clcbpatraw8 \cellx5355\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1370\clcbpatraw8 
+\cellx6725\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth2113\clcbpatraw8 \cellx8838\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl
+\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1289\clcbpatraw8 \cellx10127\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 
+\clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1636\clcbpatraw8 \cellx11763\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 
+\clcbpat8\cltxlrtb\clftsWidth3\clwWidth1326\clcbpatraw8 \cellx13089\row \ltrrow}\pard\plain \ltrpar\s40\qj \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0\pararsid4466187 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \dbch\af31505\insrsid4466187\charrsid4466187 \hich\af0\dbch\af31505\loch\f0 Marital Status (Married=1)\cell \hich\af0\dbch\af31505\loch\f0 0.267\cell 
+\hich\af0\dbch\af31505\loch\f0 0.723*\cell \hich\af0\dbch\af31505\loch\f0 0.467\cell \hich\af0\dbch\af31505\loch\f0 0.0753\cell \hich\af0\dbch\af31505\loch\f0 0.576\cell \hich\af0\dbch\af31505\loch\f0 -0.144\cell }\pard\plain \ltrpar
+\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\dbch\af31505\insrsid4466187\charrsid4466187 \trowd \irow13\irowband13\ltrrow\ts11\trgaph10\trleft-107\trftsWidth3\trwWidth13196\trftsWidthB3\trftsWidthA3\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3\tblrsid4466187\tblind-97\tblindtype3 \clvertalt\clbrdrt
+\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth3934\clcbpatraw8 \cellx3827\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 
+\clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1528\clcbpatraw8 \cellx5355\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr
+\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1370\clcbpatraw8 \cellx6725\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 
+\clcbpat8\cltxlrtb\clftsWidth3\clwWidth2113\clcbpatraw8 \cellx8838\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1289\clcbpatraw8 
+\cellx10127\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1636\clcbpatraw8 \cellx11763\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 
+\clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1326\clcbpatraw8 \cellx13089\row \ltrrow}\pard\plain \ltrpar
+\s40\qj \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0\pararsid4466187 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\dbch\af31505\insrsid4466187\charrsid4466187 \cell \hich\af0\dbch\af31505\loch\f0 (0.87)\cell \hich\af0\dbch\af31505\loch\f0 (2.\hich\af0\dbch\af31505\loch\f0 81)\cell \hich\af0\dbch\af31505\loch\f0 (1.70)\cell \hich\af0\dbch\af31505\loch\f0 (0.25)\cell 
+\hich\af0\dbch\af31505\loch\f0 (1.93)\cell \hich\af0\dbch\af31505\loch\f0 (-0.52)\cell }\pard\plain \ltrpar\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \dbch\af31505\insrsid4466187\charrsid4466187 \trowd \irow14\irowband14\ltrrow
+\ts11\trgaph10\trleft-107\trftsWidth3\trwWidth13196\trftsWidthB3\trftsWidthA3\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3\tblrsid4466187\tblind-97\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 
+\clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth3934\clcbpatraw8 \cellx3827\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 
+\clcbpat8\cltxlrtb\clftsWidth3\clwWidth1528\clcbpatraw8 \cellx5355\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1370\clcbpatraw8 
+\cellx6725\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth2113\clcbpatraw8 \cellx8838\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl
+\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1289\clcbpatraw8 \cellx10127\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 
+\clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1636\clcbpatraw8 \cellx11763\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 
+\clcbpat8\cltxlrtb\clftsWidth3\clwWidth1326\clcbpatraw8 \cellx13089\row \ltrrow}\pard\plain \ltrpar\s40\qj \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0\pararsid4466187 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \dbch\af31505\insrsid4466187\charrsid4466187 \hich\af0\dbch\af31505\loch\f0 Constant\cell \hich\af0\dbch\af31505\loch\f0 2.873*\cell \hich\af0\dbch\af31505\loch\f0 1.229
+\cell \hich\af0\dbch\af31505\loch\f0 -0.0375\cell \hich\af0\dbch\af31505\loch\f0 -1.737*\cell \hich\af0\dbch\af31505\loch\f0 -3.155*\cell \hich\af0\dbch\af31505\loch\f0 -1.070\cell }\pard\plain \ltrpar
+\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\dbch\af31505\insrsid4466187\charrsid4466187 \trowd \irow15\irowband15\ltrrow\ts11\trgaph10\trleft-107\trftsWidth3\trwWidth13196\trftsWidthB3\trftsWidthA3\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3\tblrsid4466187\tblind-97\tblindtype3 \clvertalt\clbrdrt
+\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth3934\clcbpatraw8 \cellx3827\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 
+\clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1528\clcbpatraw8 \cellx5355\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr
+\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1370\clcbpatraw8 \cellx6725\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 
+\clcbpat8\cltxlrtb\clftsWidth3\clwWidth2113\clcbpatraw8 \cellx8838\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1289\clcbpatraw8 
+\cellx10127\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1636\clcbpatraw8 \cellx11763\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 
+\clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1326\clcbpatraw8 \cellx13089\row \ltrrow}\pard\plain \ltrpar
+\s40\qj \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0\pararsid4466187 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\dbch\af31505\insrsid4466187\charrsid4466187 \cell \hich\af0\dbch\af31505\loch\f0 (3.29)\cell \hich\af0\dbch\af31505\loch\f0 (1.65)\cell \hich\af0\dbch\af31505\loch\f0 (-0.05)\cell \hich\af0\dbch\af31505\loch\f0 (-2.00)\cell 
+\hich\af0\dbch\af31505\loch\f0 (-3.41)\cell \hich\af0\dbch\af31505\loch\f0 (-1.32)\cell }\pard\plain \ltrpar\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \dbch\af31505\insrsid4466187\charrsid4466187 \trowd \irow16\irowband16\ltrrow
+\ts11\trgaph10\trleft-107\trftsWidth3\trwWidth13196\trftsWidthB3\trftsWidthA3\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3\tblrsid4466187\tblind-97\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 
+\clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth3934\clcbpatraw8 \cellx3827\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 
+\clcbpat8\cltxlrtb\clftsWidth3\clwWidth1528\clcbpatraw8 \cellx5355\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1370\clcbpatraw8 
+\cellx6725\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth2113\clcbpatraw8 \cellx8838\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl
+\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1289\clcbpatraw8 \cellx10127\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 
+\clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1636\clcbpatraw8 \cellx11763\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 
+\clcbpat8\cltxlrtb\clftsWidth3\clwWidth1326\clcbpatraw8 \cellx13089\row \ltrrow}\pard\plain \ltrpar\s40\qj \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0\pararsid4466187 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \dbch\af31505\insrsid4466187\charrsid4466187 \cell \cell \cell \cell \cell \cell \cell }\pard\plain \ltrpar
+\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\dbch\af31505\insrsid4466187\charrsid4466187 \trowd \irow17\irowband17\ltrrow\ts11\trgaph10\trleft-107\trftsWidth3\trwWidth13196\trftsWidthB3\trftsWidthA3\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3\tblrsid4466187\tblind-97\tblindtype3 \clvertalt\clbrdrt
+\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth3934\clcbpatraw8 \cellx3827\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 
+\clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1528\clcbpatraw8 \cellx5355\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr
+\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1370\clcbpatraw8 \cellx6725\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 
+\clcbpat8\cltxlrtb\clftsWidth3\clwWidth2113\clcbpatraw8 \cellx8838\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1289\clcbpatraw8 
+\cellx10127\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1636\clcbpatraw8 \cellx11763\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 
+\clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth1326\clcbpatraw8 \cellx13089\row \ltrrow}\trowd \irow18\irowband18\ltrrow
+\ts11\trgaph10\trleft-107\trftsWidth3\trwWidth13196\trftsWidthB3\trftsWidthA3\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3\tblrsid4466187\tblind-97\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 
+\clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth3934\clcbpatraw8 \cellx3827\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 
+\clcbpat8\cltxlrtb\clftsWidth3\clwWidth9262\clcbpatraw8 \cellx13089\pard\plain \ltrpar\s40\qj \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0\pararsid4466187 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \dbch\af31505\insrsid4466187\charrsid4466187 \hich\af0\dbch\af31505\loch\f0 Model }{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\loch\af636\hich\af636\dbch\af31505\insrsid4466187\charrsid4466187 \loch\af636\dbch\af31505\hich\f636 \'f7}{\rtlch\fcs1 \af0 \ltrch\fcs0 \super\dbch\af31505\insrsid4466187\charrsid4466187 \hich\af0\dbch\af31505\loch\f0 2}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\dbch\af31505\insrsid4466187\charrsid4466187 \cell \hich\af0\dbch\af31505\loch\f0 122.6*\cell }\pard\plain \ltrpar\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \dbch\af31505\insrsid4466187\charrsid4466187 \trowd \irow18\irowband18\ltrrow
+\ts11\trgaph10\trleft-107\trftsWidth3\trwWidth13196\trftsWidthB3\trftsWidthA3\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3\tblrsid4466187\tblind-97\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 
+\clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth3934\clcbpatraw8 \cellx3827\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 
+\clcbpat8\cltxlrtb\clftsWidth3\clwWidth9262\clcbpatraw8 \cellx13089\row \ltrrow}\pard\plain \ltrpar\s40\qj \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0\pararsid4466187 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \dbch\af31505\insrsid4466187\charrsid4466187 \hich\af0\dbch\af31505\loch\f0 N\cell \hich\af0\dbch\af31505\loch\f0 743\cell }\pard\plain \ltrpar
+\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\dbch\af31505\insrsid4466187\charrsid4466187 \trowd \irow19\irowband19\lastrow \ltrrow\ts11\trgaph10\trleft-107\trftsWidth3\trwWidth13196\trftsWidthB3\trftsWidthA3\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3\tblrsid4466187\tblind-97\tblindtype3 \clvertalt
+\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth3934\clcbpatraw8 \cellx3827\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl
+\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \clcbpat8\cltxlrtb\clftsWidth3\clwWidth9262\clcbpatraw8 \cellx13089\row }\pard \ltrpar\qj \li0\ri0\sa360\sl360\slmult1\widctlpar\wrapdefault\faauto\rin0\lin0\itap0 {
+\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4466187 
+\par 
+\par 
+\par 
+\par }{\*\themedata 504b030414000600080000002100828abc13fa0000001c020000130000005b436f6e74656e745f54797065735d2e786d6cac91cb6ac3301045f785fe83d0b6d8
+72ba28a5d8cea249777d2cd20f18e4b12d6a8f843409c9df77ecb850ba082d74231062ce997b55ae8fe3a00e1893f354e9555e6885647de3a8abf4fbee29bbd7
+2a3150038327acf409935ed7d757e5ee14302999a654e99e393c18936c8f23a4dc072479697d1c81e51a3b13c07e4087e6b628ee8cf5c4489cf1c4d075f92a0b
+44d7a07a83c82f308ac7b0a0f0fbf90c2480980b58abc733615aa2d210c2e02cb04430076a7ee833dfb6ce62e3ed7e14693e8317d8cd0433bf5c60f53fea2fe7
+065bd80facb647e9e25c7fc421fd2ddb526b2e9373fed4bb902e182e97b7b461e6bfad3f010000ffff0300504b030414000600080000002100a5d6a7e7c00000
+00360100000b0000005f72656c732f2e72656c73848fcf6ac3300c87ef85bd83d17d51d2c31825762fa590432fa37d00e1287f68221bdb1bebdb4fc7060abb08
+84a4eff7a93dfeae8bf9e194e720169aaa06c3e2433fcb68e1763dbf7f82c985a4a725085b787086a37bdbb55fbc50d1a33ccd311ba548b63095120f88d94fbc
+52ae4264d1c910d24a45db3462247fa791715fd71f989e19e0364cd3f51652d73760ae8fa8c9ffb3c330cc9e4fc17faf2ce545046e37944c69e462a1a82fe353
+bd90a865aad41ed0b5b8f9d6fd010000ffff0300504b0304140006000800000021006b799616830000008a0000001c0000007468656d652f7468656d652f7468
+656d654d616e616765722e786d6c0ccc4d0ac3201040e17da17790d93763bb284562b2cbaebbf600439c1a41c7a0d29fdbd7e5e38337cedf14d59b4b0d592c9c
+070d8a65cd2e88b7f07c2ca71ba8da481cc52c6ce1c715e6e97818c9b48d13df49c873517d23d59085adb5dd20d6b52bd521ef2cdd5eb9246a3d8b4757e8d3f7
+29e245eb2b260a0238fd010000ffff0300504b03041400060008000000210096b5ade296060000501b0000160000007468656d652f7468656d652f7468656d65
+312e786d6cec594f6fdb3614bf0fd87720746f6327761a07758ad8b19b2d4d1bc46e871e698996d850a240d2497d1bdae38001c3ba618715d86d87615b8116d8
+a5fb34d93a6c1dd0afb0475292c5585e9236d88aad3e2412f9e3fbff1e1fa9abd7eec70c1d1221294fda5efd72cd4324f1794093b0eddd1ef62fad79482a9c04
+98f184b4bd2991deb58df7dfbb8ad755446282607d22d771db8b944ad79796a40fc3585ee62949606ecc458c15bc8a702910f808e8c66c69b9565b5d8a314d3c
+94e018c8de1a8fa94fd05093f43672e23d06af89927ac06762a049136785c10607758d9053d965021d62d6f6804fc08f86e4bef210c352c144dbab999fb7b471
+7509af678b985ab0b6b4ae6f7ed9ba6c4170b06c788a705430adf71bad2b5b057d03606a1ed7ebf5babd7a41cf00b0ef83a6569632cd467faddec9699640f671
+9e76b7d6ac355c7c89feca9cccad4ea7d36c65b258a206641f1b73f8b5da6a6373d9c11b90c537e7f08dce66b7bbeae00dc8e257e7f0fd2badd5868b37a088d1
+e4600ead1ddaef67d40bc898b3ed4af81ac0d76a197c86826828a24bb318f3442d8ab518dfe3a20f000d6458d104a9694ac6d88728eee2782428d60cf03ac1a5
+193be4cbb921cd0b495fd054b5bd0f530c1931a3f7eaf9f7af9e3f45c70f9e1d3ff8e9f8e1c3e3073f5a42ceaa6d9c84e5552fbffdeccfc71fa33f9e7ef3f2d1
+17d57859c6fffac327bffcfc793510d26726ce8b2f9ffcf6ecc98baf3efdfdbb4715f04d814765f890c644a29be408edf3181433567125272371be15c308d3f2
+8acd249438c19a4b05fd9e8a1cf4cd296699771c393ac4b5e01d01e5a30a787d72cf1178108989a2159c77a2d801ee72ce3a5c545a6147f32a99793849c26ae6
+6252c6ed637c58c5bb8b13c7bfbd490a75330f4b47f16e441c31f7184e140e494214d273fc80900aedee52ead87597fa824b3e56e82e451d4c2b4d32a423279a
+668bb6690c7e9956e90cfe766cb37b077538abd27a8b1cba48c80acc2a841f12e698f13a9e281c57911ce298950d7e03aba84ac8c154f8655c4f2af074481847
+bd804859b5e696007d4b4edfc150b12addbecba6b18b148a1e54d1bc81392f23b7f84137c2715a851dd0242a633f900710a218ed715505dfe56e86e877f0034e
+16bafb0e258ebb4faf06b769e888340b103d3311da9750aa9d0a1cd3e4efca31a3508f6d0c5c5c398602f8e2ebc71591f5b616e24dd893aa3261fb44f95d843b
+5974bb5c04f4edafb95b7892ec1108f3f98de75dc97d5772bdff7cc95d94cf672db4b3da0a6557f70db629362d72bcb0431e53c6066acac80d699a6409fb44d0
+8741bdce9c0e4971624a2378cceaba830b05366b90e0ea23aaa241845368b0eb9e2612ca8c742851ca251ceccc70256d8d87265dd96361531f186c3d9058edf2
+c00eafe8e1fc5c509031bb4d680e9f39a3154de0accc56ae644441edd76156d7429d995bdd88664a9dc3ad50197c38af1a0c16d684060441db02565e85f3b966
+0d0713cc48a0ed6ef7dedc2dc60b17e92219e180643ed27acffba86e9c94c78ab90980d8a9f0913ee49d62b512b79626fb06dccee2a432bbc60276b9f7dec44b
+7904cfbca4f3f6443ab2a49c9c2c41476dafd55c6e7ac8c769db1bc399161ee314bc2e75cf8759081743be1236ec4f4d6693e5336fb672c5dc24a8c33585b5fb
+9cc24e1d4885545b58463634cc5416022cd19cacfccb4d30eb45296023fd35a458598360f8d7a4003bbaae25e331f155d9d9a5116d3bfb9a95523e51440ca2e0
+088dd844ec6370bf0e55d027a012ae264c45d02f708fa6ad6da6dce29c255df9f6cae0ec38666984b372ab5334cf640b37795cc860de4ae2816e95b21be5ceaf
+8a49f90b52a51cc6ff3355f47e0237052b81f6800fd7b802239daf6d8f0b1571a8426944fdbe80c6c1d40e8816b88b8569082ab84c36ff0539d4ff6dce591a26
+ade1c0a7f669880485fd484582903d284b26fa4e2156cff62e4b9265844c4495c495a9157b440e091bea1ab8aaf7760f4510eaa69a6465c0e04ec69ffb9e65d0
+28d44d4e39df9c1a52ecbd3607fee9cec7263328e5d661d3d0e4f62f44acd855ed7ab33cdf7bcb8ae889599bd5c8b3029895b6825696f6af29c239b75a5bb1e6
+345e6ee6c28117e73586c1a2214ae1be07e93fb0ff51e133fb65426fa843be0fb515c187064d0cc206a2fa926d3c902e907670048d931db4c1a44959d366ad93
+b65abe595f70a75bf03d616c2dd959fc7d4e6317cd99cbcec9c58b34766661c7d6766ca1a9c1b327531486c6f941c638c67cd22a7f75e2a37be0e82db8df9f30
+254d30c1372581a1f51c983c80e4b71ccdd28dbf000000ffff0300504b0304140006000800000021000dd1909fb60000001b010000270000007468656d652f74
+68656d652f5f72656c732f7468656d654d616e616765722e786d6c2e72656c73848f4d0ac2301484f78277086f6fd3ba109126dd88d0add40384e4350d363f24
+51eced0dae2c082e8761be9969bb979dc9136332de3168aa1a083ae995719ac16db8ec8e4052164e89d93b64b060828e6f37ed1567914b284d262452282e3198
+720e274a939cd08a54f980ae38a38f56e422a3a641c8bbd048f7757da0f19b017cc524bd62107bd5001996509affb3fd381a89672f1f165dfe514173d9850528
+a2c6cce0239baa4c04ca5bbabac4df000000ffff0300504b01022d0014000600080000002100828abc13fa0000001c0200001300000000000000000000000000
+000000005b436f6e74656e745f54797065735d2e786d6c504b01022d0014000600080000002100a5d6a7e7c0000000360100000b000000000000000000000000
+002b0100005f72656c732f2e72656c73504b01022d00140006000800000021006b799616830000008a0000001c00000000000000000000000000140200007468
+656d652f7468656d652f7468656d654d616e616765722e786d6c504b01022d001400060008000000210096b5ade296060000501b000016000000000000000000
+00000000d10200007468656d652f7468656d652f7468656d65312e786d6c504b01022d00140006000800000021000dd1909fb60000001b010000270000000000
+00000000000000009b0900007468656d652f7468656d652f5f72656c732f7468656d654d616e616765722e786d6c2e72656c73504b050600000000050005005d010000960a00000000}
+{\*\colorschememapping 3c3f786d6c2076657273696f6e3d22312e302220656e636f64696e673d225554462d3822207374616e64616c6f6e653d22796573223f3e0d0a3c613a636c724d
+617020786d6c6e733a613d22687474703a2f2f736368656d61732e6f70656e786d6c666f726d6174732e6f72672f64726177696e676d6c2f323030362f6d6169
+6e22206267313d226c743122207478313d22646b3122206267323d226c743222207478323d22646b322220616363656e74313d22616363656e74312220616363
+656e74323d22616363656e74322220616363656e74333d22616363656e74332220616363656e74343d22616363656e74342220616363656e74353d22616363656e74352220616363656e74363d22616363656e74362220686c696e6b3d22686c696e6b2220666f6c486c696e6b3d22666f6c486c696e6b222f3e}
+{\*\latentstyles\lsdstimax267\lsdlockeddef0\lsdsemihiddendef1\lsdunhideuseddef1\lsdqformatdef0\lsdprioritydef99{\lsdlockedexcept \lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdlocked0 Normal;
+\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdlocked0 heading 1;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdlocked0 heading 2;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdlocked0 heading 3;
+\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdlocked0 heading 4;\lsdqformat1 \lsdpriority9 \lsdlocked0 heading 5;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdlocked0 heading 6;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdlocked0 heading 7;
+\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdlocked0 heading 8;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdlocked0 heading 9;\lsdpriority39 \lsdlocked0 toc 1;\lsdpriority39 \lsdlocked0 toc 2;\lsdpriority39 \lsdlocked0 toc 3;
+\lsdpriority39 \lsdlocked0 toc 4;\lsdpriority39 \lsdlocked0 toc 5;\lsdpriority39 \lsdlocked0 toc 6;\lsdpriority39 \lsdlocked0 toc 7;\lsdpriority39 \lsdlocked0 toc 8;\lsdpriority39 \lsdlocked0 toc 9;\lsdunhideused0 \lsdlocked0 footnote text;
+\lsdunhideused0 \lsdlocked0 header;\lsdunhideused0 \lsdlocked0 footer;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdlocked0 caption;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdlocked0 Title;\lsdpriority1 \lsdlocked0 Default Paragraph Font;
+\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdlocked0 Subtitle;\lsdunhideused0 \lsdlocked0 Block Text;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority22 \lsdlocked0 Strong;
+\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority20 \lsdlocked0 Emphasis;\lsdunhideused0 \lsdlocked0 Plain Text;\lsdunhideused0 \lsdlocked0 Balloon Text;\lsdsemihidden0 \lsdunhideused0 \lsdpriority59 \lsdlocked0 Table Grid;
+\lsdunhideused0 \lsdlocked0 Placeholder Text;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdlocked0 No Spacing;\lsdsemihidden0 \lsdunhideused0 \lsdpriority60 \lsdlocked0 Light Shading;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority61 \lsdlocked0 Light List;\lsdsemihidden0 \lsdunhideused0 \lsdpriority62 \lsdlocked0 Light Grid;\lsdsemihidden0 \lsdunhideused0 \lsdpriority63 \lsdlocked0 Medium Shading 1;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority64 \lsdlocked0 Medium Shading 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority65 \lsdlocked0 Medium List 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority66 \lsdlocked0 Medium List 2;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority67 \lsdlocked0 Medium Grid 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority68 \lsdlocked0 Medium Grid 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority69 \lsdlocked0 Medium Grid 3;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority70 \lsdlocked0 Dark List;\lsdsemihidden0 \lsdunhideused0 \lsdpriority71 \lsdlocked0 Colorful Shading;\lsdsemihidden0 \lsdunhideused0 \lsdpriority72 \lsdlocked0 Colorful List;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority73 \lsdlocked0 Colorful Grid;\lsdsemihidden0 \lsdunhideused0 \lsdpriority60 \lsdlocked0 Light Shading Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority61 \lsdlocked0 Light List Accent 1;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority62 \lsdlocked0 Light Grid Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 1;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority65 \lsdlocked0 Medium List 1 Accent 1;\lsdunhideused0 \lsdlocked0 Revision;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority34 \lsdlocked0 List Paragraph;
+\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority29 \lsdlocked0 Quote;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdlocked0 Intense Quote;\lsdsemihidden0 \lsdunhideused0 \lsdpriority66 \lsdlocked0 Medium List 2 Accent 1;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 1;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority70 \lsdlocked0 Dark List Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority71 \lsdlocked0 Colorful Shading Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority72 \lsdlocked0 Colorful List Accent 1;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority73 \lsdlocked0 Colorful Grid Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority60 \lsdlocked0 Light Shading Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority61 \lsdlocked0 Light List Accent 2;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority62 \lsdlocked0 Light Grid Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 2;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority65 \lsdlocked0 Medium List 1 Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority66 \lsdlocked0 Medium List 2 Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 2;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority70 \lsdlocked0 Dark List Accent 2;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority71 \lsdlocked0 Colorful Shading Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority72 \lsdlocked0 Colorful List Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority73 \lsdlocked0 Colorful Grid Accent 2;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority60 \lsdlocked0 Light Shading Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority61 \lsdlocked0 Light List Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority62 \lsdlocked0 Light Grid Accent 3;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority65 \lsdlocked0 Medium List 1 Accent 3;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority66 \lsdlocked0 Medium List 2 Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 3;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority70 \lsdlocked0 Dark List Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority71 \lsdlocked0 Colorful Shading Accent 3;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority72 \lsdlocked0 Colorful List Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority73 \lsdlocked0 Colorful Grid Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority60 \lsdlocked0 Light Shading Accent 4;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority61 \lsdlocked0 Light List Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority62 \lsdlocked0 Light Grid Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 4;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority65 \lsdlocked0 Medium List 1 Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority66 \lsdlocked0 Medium List 2 Accent 4;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 4;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority70 \lsdlocked0 Dark List Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority71 \lsdlocked0 Colorful Shading Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority72 \lsdlocked0 Colorful List Accent 4;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority73 \lsdlocked0 Colorful Grid Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority60 \lsdlocked0 Light Shading Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority61 \lsdlocked0 Light List Accent 5;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority62 \lsdlocked0 Light Grid Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 5;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority65 \lsdlocked0 Medium List 1 Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority66 \lsdlocked0 Medium List 2 Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 5;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority70 \lsdlocked0 Dark List Accent 5;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority71 \lsdlocked0 Colorful Shading Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority72 \lsdlocked0 Colorful List Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority73 \lsdlocked0 Colorful Grid Accent 5;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority60 \lsdlocked0 Light Shading Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority61 \lsdlocked0 Light List Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority62 \lsdlocked0 Light Grid Accent 6;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority65 \lsdlocked0 Medium List 1 Accent 6;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority66 \lsdlocked0 Medium List 2 Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 6;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority70 \lsdlocked0 Dark List Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority71 \lsdlocked0 Colorful Shading Accent 6;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority72 \lsdlocked0 Colorful List Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority73 \lsdlocked0 Colorful Grid Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority19 \lsdlocked0 Subtle Emphasis;
+\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority21 \lsdlocked0 Intense Emphasis;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority31 \lsdlocked0 Subtle Reference;
+\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority32 \lsdlocked0 Intense Reference;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority33 \lsdlocked0 Book Title;\lsdpriority37 \lsdlocked0 Bibliography;
+\lsdqformat1 \lsdpriority39 \lsdlocked0 TOC Heading;}}{\*\datastore 0105000002000000180000004d73786d6c322e534158584d4c5265616465722e352e3000000000000000000000060000
+d0cf11e0a1b11ae1000000000000000000000000000000003e000300feff090006000000000000000000000001000000010000000000000000100000feffffff00000000feffffff0000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+fffffffffffffffffdfffffffeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffff52006f006f007400200045006e00740072007900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000016000500ffffffffffffffffffffffffec69d9888b8b3d4c859eaf6cd158be0f00000000000000000000000010de
+8919acd8c901feffffff00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff00000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000105000000000000}}

@@ -1,0 +1,12 @@
+# Data files fetched from NORC are reproducible via R/00-download-gss.R
+data/
+output/
+
+# renv housekeeping (lockfile renv.lock IS committed)
+renv/library/
+renv/local/
+renv/staging/
+
+.Rproj.user
+.Rhistory
+.RData
