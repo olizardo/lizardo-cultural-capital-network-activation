@@ -130,18 +130,32 @@ ggsave(here("output", "figures", "figure2-activity-effects.pdf"), fig2$effects,
 ggsave(here("output", "figures", "figure2-college-share.pdf"), fig2$share,
        width = 6, height = 4)
 
-# R3 figure2.do variant: effects of each activity from the multinomial model
-fit_f2r3 <- multinom(update(ctrl_f, strong_vs_acq_vs_boss_vs_other ~ .),
-                     data = d, trace = FALSE)
-fig2r3 <- bind_rows(lapply(activities, function(x) {
+# Map display labels to activity variables
+act_of <- setNames(activities, labels)
+
+# R3 figure2.do variant: one multinomial model per activity, with the activity
+# itself as the predictor of interest (mlogit outcome x age agesq ... robust;
+# margins, dydx(x) predict(out(2)) / predict(out(3)))
+fig2r3 <- bind_rows(lapply(seq_along(activities), function(i) {
+  fit_x <- multinom(as.formula(paste("strong_vs_acq_vs_boss_vs_other ~",
+                                     activities[i], "+", ctrl)),
+                    data = d, trace = FALSE)
   # Stata margins dydx() averages over the estimation sample
-  s <- avg_slopes(fit_f2r3, variables = x)
-  data.frame(lab = labels[[which(activities == x)]], group = s$group,
-             est = s$estimate)
+  s <- avg_slopes(fit_x, variables = activities[i])
+  data.frame(lab = labels[i], group = s$group, est = s$estimate)
 })) |>
-  filter(group != "0") |>
+  # outcome 1 is the reference category ("other"); drop it and any NA groups
+  filter(as.character(group) %in% c("2", "3")) |>
   mutate(group = factor(group, levels = c("2", "3"),
                         labels = c("Acquaintance / Boss", "Boss"))) |>
+  # order activities by proportion college among participants, as in the paper
+  mutate(percollege = sapply(as.character(lab), function(l) {
+    x <- act_of[[l]]
+    mean(d$college[d[[x]] == 1])
+  })) |>
+  mutate(lab = factor(as.character(lab),
+                      levels = unique(names(sort(setNames(percollege,
+                                                          as.character(lab))))))) |>
   ggplot(aes(est, lab)) +
   geom_col() +
   facet_wrap(~group) +
@@ -174,6 +188,7 @@ p3b <- predictions(fit_f3b,
                    newdata = datagrid(numcntct = seq(0, 100, 10),
                                       grid_type = "counterfactual"),
                    type = "probs", by = c("numcntct", "omnicat")) |>
+  filter(!is.na(omnicat)) |>
   ggplot(aes(numcntct, estimate, color = omnicat)) +
   geom_line() +
   labs(x = "N. of Contacts",
