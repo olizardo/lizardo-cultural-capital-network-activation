@@ -16,3 +16,4 @@ renv/staging/
 stata-original/**
 !stata-original/**/
 !stata-original/**/*.do
+stata-original/refs.txt
