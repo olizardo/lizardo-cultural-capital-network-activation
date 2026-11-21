@@ -17,3 +17,6 @@ stata-original/**
 !stata-original/**/
 !stata-original/**/*.do
 stata-original/refs.txt
+
+# Original Stata do-files and archive: not part of the R replication
+stata-original/
