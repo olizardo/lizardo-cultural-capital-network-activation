@@ -19,6 +19,11 @@ gssr::gss_get_yr(2002)
 The downloaded extract is cached to `data/gss2002.rds` so later scripts do not
 re-download it. The NORC data files are public, so no credentials are needed.
 
+If you use this pipeline, please also cite the data-access package:
+
+> Healy, Kieran. 2026. *gssr: General Social Survey data for use in R*. R
+> package version 0.9.0. http://kjhealy.github.io/gssr.
+
 ## Run order
 
 Scripts are numbered and meant to be run in sequence (`source()` from the repo
