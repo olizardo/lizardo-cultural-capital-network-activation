@@ -10,3 +10,9 @@ renv/staging/
 .Rproj.user
 .Rhistory
 .RData
+
+# Archive: keep only the original Stata do-files (code); all submission
+# materials, manuscripts, lit PDFs, codebooks, and workbooks stay out of git
+stata-original/**
+!stata-original/**/
+!stata-original/**/*.do
